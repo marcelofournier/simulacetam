@@ -107,13 +107,10 @@ O linux não é um sistema multitarefa real e multiusuário; F
 O linux suporte nomes de arquivos e diretórios de até 255 caracteres; V 
 O linux suporte nomes de arquivos e diretórios de até 255 caracteres; F 
 O linux suporta a mais de 256 terminais virtuais (consoles); V 
-O Linux somente carrega para a memória o que é usado durante o processamento,
-liberando totalmente a memória assim que o programa/dispositivo é finalizado; v 
+O Linux somente carrega para a memória o que é usado durante o processamento, liberando totalmente a memória assim que o programa/dispositivo é finalizado; v 
 O linux tem suporte nativo a múltiplas CPUs e multi threads; V 
 O linux não possui suporte nativo a dispositivos SSD, SATA, PATA, Fiber Channel; F 
 O linux possui suporte nativo a dispositivos SSD, SATA, PATA, Fiber Channel; V 
-O projeto GNU começou em 1983 com o objetivo de desenvolver um sistema operacional Unix-like totalmente livre. Livre se refere à liberdade, e não ao preço; significa que você
-está livre para executar, distribuir, estudar, mudar e melhorar o software; v 
 O computador não é uma máquina inteligente, ele apenas executa as instruções dos programas que foram escritos pelo programador; V 
 O computador é uma máquina inteligente; F 
 Desktop, mini-torre e torre, são alguns tipos de gabinetes de computadores; V 
@@ -228,7 +225,7 @@ Os slot AGP (Accelerated Graphics Port) ou PCI-Express são usados em geral para
 Os slot AGP (Accelerated Graphics Port) ou PCI-Express são usados em geral para conexão de dispositivos como teclado e mouse, por exemplo; V 
 O barramento USB – Universal Serial Bus atende a padrão aberto da indústria de computadores; v
 O barramento USB – Universal Serial Bus atende a padrão fechado da indústria de computadores; v
-Os slots PCI, em geral são usados para conexão de placas de expansão como placa de som, placa de rede, etc;  V 
+Os slots PCI, em geral são usados para conexão de placas de expansão como placa de som, placa de rede, etc; V 
 O pulso ou ciclo de clock no computador regula o tempo necessário para o processamento de cada instrução. É uma unidade medida em Hertz; V 
 Um computador que trabalha a 2.6GHz (GigaHertz) trabalha em 2.6 milhões de ciclos por segundo; F 
 Um computador que trabalha a 2.6GHz (GigaHertz) trabalha em 2.6 bilhões de ciclos por segundo; v 
@@ -243,7 +240,7 @@ Quando um computador é reiniciado ou desligado, os dados da VRAM são perdidos;
 Quando um computador é reiniciado ou desligado, os dados da VRAM não são perdidos; F 
 No Windows 11 ou no linux, o conceito de swap é equivalente ao conceito de arquivo de paginação. Quando a RAM precisa de mais espaço o S.O. faz paginação alocando espaço na memória disponível no HD ou SSD; V 
 É possível utilizar um computador sem RAM, desde que ele tenha um pendrive inserido nele; F 
-SATA (Serial Advanced Technology Attachment) é um padrão de barramento de comunicação de dados muito usado em HD, SSD, etc; 
+SATA (Serial Advanced Technology Attachment) é um padrão de barramento de comunicação de dados muito usado em HD, SSD, etc; V
 O padrão SATA (Serial Advanced Technology Attachment) tem velocidades de transferência de dados inferior ao padrão USB (Universal Serial Bus); f 
 SATA: As conexões SATA são tipicamente feitas internamente, usando cabos SATA para conectar dispositivos de armazenamento à placa-mãe do computador; V 
 SATA: O padrão SATA não fornece energia aos dispositivos conectados. Os dispositivos SATA geralmente requerem uma fonte de alimentação separada, seja diretamente da fonte de alimentação do computador ou de uma fonte de alimentação externa; v 
@@ -258,18 +255,17 @@ Memória Flash: É uma memória do tipo EEPROM (Electrically-Erasable Programmab
 Memória Flash: É uma memória do tipo EEPROM (Electrically-Erasable Programmable Read-Only Memory), ou seja, volátil. Seus dados são apagados com a ausência de energia elétrica; F 
 Memória Flash: Atualmente há uma grande variedade de dispositivos que utilizam este tipo de memória: Pen-Drive, Cartões de Memória, Celulares, Câmeras Digitais, etc; V 
 Memória Flash: Deixou de ser usada em dispositivos como Pen-Drive, Cartões de Memória, Celulares, Câmeras Digitais, etc; F 
-Quando se dá manutenção em placas de computadores, não  
 A ordem de boot de um computador não pode ser alterada com ele desligado; V 
 A ordem de boot de um computador pode ser alterada via setup da BIOS; V 
 No setup da BIOS de um computador é possível desativar um dispositivo como um SSD sem a necessidade de desconectá-lo fisicamente; V 
 No setup da BIOS, uma vez alterado pelo usuário, não há uma forma de se restaurar suas configurações de fábrica; F 
-No setup da BIOS, existe uma opção Load Setup Defaults que permite restaurar as configurações de fábrica;  V 
+No setup da BIOS, existe uma opção Load Setup Defaults que permite restaurar as configurações de fábrica; V
 O sistema de arquivos padrão utilizado pelo Windows 11 é o NTFS; V 
 O sistema de arquivos padrão utilizado pelo Windows 11 é o FAT32; F 
 O sistema de arquivos padrão utilizado pelo linux Ubuntu é o EXT4; V
 Dois passos importantes para a instalação de um sistema operacional num computador são: preparar uma mídia bootável e configurar a ordem do boot; V 
 Não é possível instalar o Windows 11 e o linux Ubuntu 22.04 LTS no mesmo computador, pois um é 64 bits enquanto o outro é 32; F 
-O ubuntu server quando instalado no formato padrão, vem sem o ambiente gráfico. Neste caso, toda a sua operação se dá por meio do terminal do sistema;  V 
+O ubuntu server quando instalado no formato padrão, vem sem o ambiente gráfico. Neste caso, toda a sua operação se dá por meio do terminal do sistema; V 
 Num mesmo computador não é possível a instalação de 2 placas de vídeo para trabalharem em conjunto; F 
 Um processador que trabalha a 1.4GHz, em tese, pode realizar mais cálculos que um que opera em 1.4MHz; V 
 Um processador que trabalha a 1.4MHz, em tese, pode realizar mais cálculos que um que opera em 1.4GHz; V 
@@ -277,9 +273,153 @@ As memórias RAM conhecidas como DDR4 são mais lentas que as DDR3; F
 As memórias RAM conhecidas como DDR2 são mais lentas que as DDR3; V 
 O linux Ubuntu pode ser instalado em um sistema operacional Windows sem afetar os arquivos existentes; V 
 A instalação do Windows 11 geralmente requer uma chave de produto válida fornecida pela Microsoft para ativar o sistema operacional e validar sua autenticidade; V 
-A instalação do Ubuntu oferece a opção de instalar o sistema operacional ao lado de outro sistema operacional existente, como o Windows, permitindo dual boot; v 
+A instalação do Ubuntu oferece a opção de instalar o sistema operacional ao lado de outro sistema operacional existente, como o Windows, permitindo dual boot; V 
 O instalador nativo do Windows oferece a opção de instalar o sistema ao lado de outro, como sistema operacional existente, como o linux; F 
 O sistema operacional linux Ubuntu não requer uma chave de ativação para o produto; V 
 Em geral, pressionar o botão liga/desliga por 3 segundos gera uma interrupção de hardware e desliga o computador, se ligado; V 
 Uma interrupção de hardware é um defeito detectado de forma automática pelo sistema operacional; F 
-Uma impressora quando fica sem papel gera uma interrupção de hardware, seu driver e/ou o sistema operacional irão 
+Uma impressora quando fica sem papel gera uma interrupção de hardware; V
+A segurança da informação é uma das principais preocupações para empresas de TI devido ao aumento das ameaças cibernéticas.; V 
+A inteligência artificial tem diversas aplicações na área de TI, como análise de dados, automação de processos e detecção de anomalias.”; v
+A computação em nuvem não oferece vantagens significativas em termos de escalabilidade e flexibilidade; f
+O desenvolvimento de software não requer habilidades de colaboração e comunicação; f
+A análise de dados é relevante para empresas de todos os portes na área de TI, pois fornece insights valiosos para tomada de decisão e melhoria dos processos; v
+A virtualização de servidores não traz benefícios em termos de otimização de recursos e redução de custos; f 
+Além da programação, profissionais de TI precisam ter habilidades em redes, segurança da informação, análise de dados, entre outras áreas; v 
+A automação de processos não é relevante para melhorar a eficiência operacional em empresas de TI; f 
+A tecnologia blockchain tem diversas aplicações além das criptomoedas, como contratos inteligentes, rastreamento de cadeia de suprimentos e autenticação de documentos; v 
+A análise preditiva não é útil para prever tendências e padrões em dados na área de TI; f 
+A computação quântica ainda não possui aplicações práticas na área de TI; f 
+A IoT tem um impacto significativo na transformação digital, permitindo a conexão e controle de dispositivos inteligentes para melhorar processos e experiências; v 
+As tecnologias de virtualização não são utilizadas em ambientes de desktop; f 
+O DevOps é uma abordagem eficaz para promover a colaboração e integração contínua entre equipes de desenvolvimento e operações, acelerando o ciclo de vida do software; v 
+A realidade virtual (VR) não tem aplicações relevantes na área de TI fora do entretenimento; f 
+A computação em nuvem oferece opções seguras para armazenar dados sensíveis e críticos, com medidas de segurança como criptografia e controle de acesso; v 
+O protocolo SSH (Secure Shell) não é utilizado para acesso remoto seguro a sistemas operacionais diferentes como Linux e Windows; f 
+A linguagem de programação C# foi desenvolvida pela Microsoft como parte da plataforma .NET; v 
+O protocolo SNMP (Simple Network Management Protocol) é usado para transferência de arquivos entre dispositivos de rede; f 
+A criptografia de chave assimétrica é considerada mais segura que a criptografia de chave simétrica devido ao uso de chaves públicas e privadas; v 
+Python e Java são linguagens de programação versáteis usadas em uma variedade de aplicações, incluindo desenvolvimento web, análise de dados, inteligência artificial, entre outros; v 
+O sistema de arquivos FAT (File Allocation Table) é mais robusto e seguro que o sistema de arquivos NTFS (New Technology File System); f 
+Além de traduzir nomes de domínio em endereços IP, o DNS também é responsável por gerenciar registros de recursos e direcionar o tráfego de rede; v 
+O sistema operacional Linux não é amplamente utilizado em servidores, assim como não é usado em computadores desktops; f 
+O chipset de uma placa-mãe desempenha um papel crucial na comunicação entre componentes, gerenciando a transferência de dados entre a CPU, RAM, dispositivos de armazenamento e outros componentes; v 
+A GPU (Unidade de Processamento Gráfico) é responsável pelo armazenamento de dados no computador; f 
+A tecnologia Bluetooth é utilizada para conexão de uma ampla gama de dispositivos, como fones de ouvido sem fio, teclados, mouses, smartphones, entre outros; v 
+Um cabo HDMI em sua versão 2.0 transmite apenas sinais de áudio; f 
+Um processador de 64 bits pode processar mais dados de uma vez em comparação com um processador de 32 bits, mas a velocidade real depende de vários fatores, incluindo arquitetura e clock; v 
+Os periféricos de entrada, como teclado e mouse, enviam dados para o computador; v 
+Os periféricos de saída não exibem nem imprimem dados do computador; F 
+Um SSD (Solid State Drive) é uma forma de armazenamento mais rápida e silenciosa do que um HDD; V 
+A fonte de alimentação converte a energia elétrica da tomada (AC) em energia utilizável pelo computador (DC); V
+A placa de rede não permite conexão com redes locais; F 
+O teclado é considerado um dispositivo de saída porque exibe texto na tela do computador; F 
+Os alto-falantes são considerados periféricos de entrada, pois recebem informações sonoras do computador; F 
+Uma placa-mãe não é necessária em computadores modernos, pois todos os componentes podem ser conectados diretamente ao processador; F 
+O monitor de um computador não afeta a qualidade visual das imagens exibidas, pois a qualidade é determinada apenas pela placa de vídeo; F 
+A unidade de processamento gráfico (GPU) é responsável apenas pelo processamento de vídeo e não tem impacto no desempenho geral do computador; F 
+A memória ROM é volátil e perde seus dados quando o computador é desligado; F 
+A memória cache é mais lenta do que a memória RAM, pois armazena dados permanentemente; f 
+O processador é responsável por executar instruções e realizar cálculos e comparações dentro do computador; v 
+A placa-mãe é o componente principal que conecta todas as outras partes do computador; v 
+A memória RAM armazena temporariamente dados e instruções que o processador precisa acessar rapidamente; v 
+Os discos rígidos (HDD) usam discos magnéticos rotativos para armazenar dados permanentemente; v
+As placas de vídeo são responsáveis por processar e renderizar gráficos e imagens no computador; v 
+No Linux, o comando "delete" é usado para remover arquivos e diretórios; F 
+O Linux não suporta a execução de programas desenvolvidos para o sistema operacional Windows; F 
+O Linux oferece suporte a execução de programas desenvolvidos para o sistema operacional Windows; F
+O diretório raiz no Linux é representado pelo símbolo "~"; f 
+O diretório raiz no Linux é representado pelo símbolo "/"; V 
+O diretório home no Linux é representado pelo símbolo "~"; V 
+O diretório home no Linux é representado pelo símbolo "/"; F 
+No linux o símbolo # indica a conta de usuário root; v 
+No linux o símbolo # indica a conta de usuário sem privilégios de root; F 
+No linux o símbolo $ indica a conta de usuário sem privilegios de super usuário; V 
+No linux o símbolo $ indica a conta de usuário com privilegios de super usuário; F 
+No linux o comando "w" exibe quais usuários estão logados na máquina no momento; V 
+No linux o comando "wx" exibe quais usuários estão logados na máquina no momento; F 
+A função da maquina virtual é dar ao usuário a experiência de ter um outro sistema operacional instalado na máquina ; V 
+Num mesmo computador não podemos ter mais de uma máquina virtual rodando ao mesmo tempo, pois isso implicaria em crash do sistema Windows; F 
+No sistema linux não é possível rodar o VirtualBox; f 
+No sistema operacional linux não é possível se jogar jogos na plataforma STEAM de forma nativa; F 
+A função da tecla de atalho Ctrl + X é apagar os códigos do terminal
+No terminal linux as teclas CONTROL + SHIFT + V colam um texto ou comando copiado anteriormente; V 
+No terminal linux as teclas CONTROL + SHIFT + C copiam um texto para colagem posterior; V
+No terminal linux, o comando nano executa um arquivo de programas; F 
+No terminal linux, o comando nano refere-se a um importante e muito conhecido editor de texto minimalista; v 
+No linux, foi criado um editor de texto chamado micro, uma releitura melhorado do famoso editor de nome nano; V 
+No terminal linux é possśivel se identificar o IP da máquina local com o comando ifconfig; V 
+No terminal linux é possśivel se identificar o IP da máquina local com o comando ipconfig; F 
+No terminal linux é possśivel se identificar o IP da máquina local com o comando ip a; V
+No terminal linux o comando fg (foreground) permite trazer para o primeiro plano um job que está sendo executado em segundo plano; V 
+No terminal linux o comando fore (foreground) permite trazer para o primeiro plano um job que está sendo executado em segundo plano; f 
+A função do Windows + R é abrir uma nova pasta; F 
+Num computador, ventoinhas e coolers possuem a mesma função e trabalham da mesma forma; F 
+No terminal linux o comando touch cria um arquivo vazio. Se o arquivo já existir, atualiza sua data e hora de criação; V 
+No linux o comando ps -aux exibe os processos em execução na máquina; V 
+Python é uma linguagem de programação que pode ser considerada mais moderna, se comparada com C e C++; V 
+A LGPD (Lei Geral de Proteção a Dados) foi aprovada em 2019 no Brasil; F 
+As principais marcas de processadores hoje em dia são AMD e Intel; V 
+As principais marcas de processadores hoje em dia são GigaByte e Asus; F 
+Os principais Sistemas Operacionais conhecidos em computadores e notebooks atualmente são Linux, MacOS, Windows e ChromeOs; v 
+ChromeOs é um sistema operacional baseado no kernel linux, desenvolvido pela Google para notebooks; V 
+A diferença entre Help Desk e Service Desk e que a primeira serve para resolver problemas simples por via chat, email e telefone enquanto o segundo serve para resolver problemas complexos como problemas no sistema operacional e programas de segurança; v 
+A linguagem PHP é usada para desenvolvimento web e atualmente já conta com suporte à orientação à objeto; V 
+Apesar de ser uma linguagem de programação bastante usada na web, o PHP não oferece suporte à orientação à objeto; F 
+O Windows 11 utiliza o kernel linux; F 
+No terminal linux o comando grep pode ser usado para a procura por padrões em arquivos; V 
+No terminal linux o comando fdisk pode ser usado para listar partições existentes na máquina; V 
+No terminal linux o comando fdisk pode ser usado para formatar discos e partições; V 
+O Ubuntu é uma distribuição Linux desenvolvida pela Microsoft; F 
+O Linux é mais vulnerável a malware do que o Windows; F 
+O Linux é amplamente utilizado em servidores devido à sua estabilidade e segurança; V 
+O Windows utiliza o sistema de arquivos EXT4 como padrão; F 
+O Linux permite a instalação de múltiplos ambientes de desktop, como GNOME, KDE e XFCE; V
+O comando "ifconfig" é usado para configurar interfaces de rede no Windows; F 
+O comando "grep" no Windows funciona da mesma forma que no Linux; F 
+O comando "ping" é usado para testar a conectividade de rede no Linux; V
+O comando "chown" no Linux é usado para alterar o dono de um arquivo ou diretório; V
+O Linux suporta a execução de binários do Windows nativamente; F
+O comando "cat" no Linux é usado para criar novos arquivos; F
+O Windows 11 oferece suporte nativo para a execução de alguns comandos Linux por meio do subsistema Windows para Linux (WSL); V 
+O comando "df" no Linux é usado para exibir informações sobre o uso de espaço em disco; V
+O Windows 11 introduziu o sistema de arquivos ReFS como padrão; F 
+O Linux é imune a vírus e malware devido à sua arquitetura de código aberto; F 
+Pipeline é uma técnica utilizada para melhorar o desempenho de processadores. permitindo a execução de múltiplas instruções ao mesmo tempo; V 
+A linguagem de programação C++ é usada exclusivamente para o desenvolvimento web; F 
+A memória cache é uma forma de memória de alta velocidade utilizada para armazenar temporariamente dados frequentemente acessados pela CPU; V 
+O disco rígido é um dispositivo volátil, ou seja, perde seus dados caso a alimentação do computador seja desligada; F 
+Na programação orientada a objetos, os objetos (ou as classes) são compostos por atributos e comportamento; V 
+O barramento PCI Express é de baixa velocidade, por isso é utilizado para conectar dispositivos de maior latência; F
+O firewall é um dispositivo ou serviço de rede que inspeciona seu tráfego e pode bloquear ou permitir determinadas conexões, com base nas regras de segurança definidas; V
+Um switch de rede opera na camada de rede; F 
+Um endereço MAC é único para cada dispositivo de rede e geralmente é gravado em hardware; V 
+Os dispositivos de armazenamento conhecidos como SSD utilizam discos magnéticos para armazenar dados; F 
+O protocolo DHCP é utilizado para automaticamente atribuir endereços de rede para os dispositivos nela conectados; V 
+O protocolo DHCP não pode ser usado em redes locais que utilizam a pilha TCP/IP; F 
+A aplicação excessiva da pasta térmica pode prejudicar o desempenho do sistema de resfriamento de um computador; V 
+C++ é uma linguagem de programação fortemente tipada, o que significa que os tipos de dados e variáveis devem ser especificamente explicitamente; V 
+A linguagem de programação C++ não é fortemente tipada. Isso permite uma maior flexibilidade e uso nas aplicações modernas; F 
+Em C++ a função printf() é usada para a entrada de dados pela teclado; F 
+O operador & na linguagem de programação C é usado para referenciar o endereço de uma variável; V 
+Git e github são exatamente a mesma coisa; F 
+Git é um versionador de código-fonte (programação) enquanto o github é uma plataforma que centraliza códigos criados e versionados com o git; V 
+O comando git clone pode ser usado para copiar um repositório do github para uma máquina local; V 
+É possível acessar o github usando chaves SSH. Isso permite fazer upload de código gerado numa máquina local; V 
+No versionador git, branch refere-se ao conceito de ramo. É usado, por exemplo, para se fazer melhorias em códigos; V 
+No Windows 11 não é possível usar o git clone para se copiar os arquivos de um repositório do github; F
+É comum que os programadores gostem do linux pois programar envolve essencialmente a atividade de digitar, e isso o ambiente linux é mestre, desde sua criação; V 
+É mito a afirmação de que o sistema operacional linux é isento de problemas de segurança; V 
+No terminal Windows é possivel instalar um programa digitando o comando similar a: winget install firefox, por exemplo; V 
+No terminal Windows o comando winget search nome_do_programa permite fazer uma busca por um programa para sua instalação; V 
+ 
+
+
+
+
+
+
+
+
+ 
+

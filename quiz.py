@@ -29,7 +29,8 @@ def mostra_host_ip():
     hostname = socket.gethostname()
     # Obtém o endereço IP do sistema
     endereco_ip = socket.gethostbyname(hostname)
-    print("  HOSTNAME:", hostname + '.' + "IP: ", endereco_ip)
+    numero = contar_linhas_arquivo("quiz.dat")
+    print("  HOSTNAME:", hostname + ' | ' + "IP: ", endereco_ip + ' | Banco: ' + str(numero) + ' questões')
 
 def aguarde():
     input('  Pressione ENTER para prosseguir...')
@@ -49,6 +50,16 @@ def chama_chat():
     hello()
     abrir_arquivo("chatola.txt")
     aguarde()
+
+def contar_linhas_arquivo(nome_arquivo):
+    try:
+        with open(nome_arquivo, 'r') as arquivo:
+            num_linhas = sum(1 for linha in arquivo)
+        return num_linhas
+    except FileNotFoundError:
+        return "Arquivo não encontrado"
+    except Exception as e:
+        return f"Ocorreu um erro: {e}"
     
 def totalizar_pontos(nome_arquivo):
     # Dicionário para armazenar os pontos de cada usuário
@@ -81,7 +92,7 @@ def hello():
     print('                    CENTRO DE EDUCAÇÃO TECNOLÓGICA DO AMAZONAS')
     print('')
     print('             😊' + ' ALEGRIA 1.0 - SIMULADOR DE QUESTÕES SOBRE TECNOLOGIA')  
-    print('                               by: prof. Marcelo Fournier')
+    print('                          by: prof. Marcelo Fournier & time')
     print("")
     linha()
     data_hora()

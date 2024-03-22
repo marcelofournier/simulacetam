@@ -412,3 +412,120 @@ No Windows 11 não é possível usar o git clone para se copiar os arquivos de u
 É mito a afirmação de que o sistema operacional linux é isento de problemas de segurança; V 
 No terminal Windows é possivel instalar um programa digitando o comando similar a: winget install firefox, por exemplo; V 
 No terminal Windows o comando winget search nome_do_programa permite fazer uma busca por um programa para sua instalação; V 
+A arquitetura de computadores consiste entre outras coisas na: conjunto de instruções, número de bits, mecanismos de E/S e técnicas de endereçamento de memória; V 
+A organização de computadores refere-se à unidades operacionais e suas interconexões que implementam as especificações da sua arquitetura; V 
+O ábaco é o nome genérico atribuído aos contadores em geral utilizado no oriente; v 
+Em 1621 o matemático inglês William Outgred inventa a régua de cálculo; V 
+Em 1623, Wilhem Schilkard começa a construção da 1ª máquina de calcular; V
+O francês Blaise Pascal, utilizando sua máquina conhecida como pascalina, conseguia somar e subtrair por meio de engrenagens mecânicas; V
+O alemão Von Neumman, utilizando sua máquina conhecida como pascalina, conseguia somar e subtrair por meio de engrenagens mecânicas; F 
+EM 1801, o matemático francês Joseph Marie consegue armazenar informações em placas perfuradas para controle de máquinas de tecelagem, o fato gerou grande temor de desemprego, por ser considerada uma máquina pré-automação; v 
+Em 1820, uma máquina de calcular idealizada pelo francês Charles Thomas vendeu mais de 1500 unidades, foi o 1° sucesso comercial nesse setor; V 
+Em 1822, O inglês Charles Babbage anuncia sua máquina diferencial, mas o motor analítico do computador era composto por engrenagens que não possuíam a precisão adequada, não funcionou de forma satisfatória; V
+Em 1972, O inglês Charles Babbage anuncia sua máquina diferencial, mas o motor analítico do computador era composto por engrenagens que não possuíam a precisão adequada, não funcionou de forma satisfatória; F
+O inglês Charles Babbage, sabendo que precisava de um software para o motor, contrata a 1ª programadora do mundo, Ada Lovelace; v
+Em 1854, George Boole estabelece os princípios binários que seriam utilizados posteriormente como base pra o estudo de lógica matemática; V 
+Em 1860, Hermann Hollerith, baseado nas ideias de Babbage e Joseph, constrói uma máquina de tabulação chamada “tabuladora” a qual foi usada no censo norte-americano; v
+Em 1924 nasce a IBM ( International Business Machine), resultado da associação de Hermann e Watson; V 
+Os primeiros computadores eletrônicos utilizavam válvulas que eram ligadas por kms de fios, com a invenção da válvula eletrônica foi possível realizar operações aritméticas por meio de circuitos eletrônicos; v
+Em 1931, o 1° computador analógico é construído pelo MIT (Massachustts Institute of Technology); V
+EM 1937 a IBM fabricou o 1° computador eletromecânico, o MARK I; V 
+Em 1939 o 1° computador eletrônico digital, é apresentado pelo professor de matemática John Atanasoft, o 1° a usar válvula para os circuitos lógicos, mas sua construção foi abandonada em 1942; V
+Em 1943, a Inglaterra constrói dez computadores COLOSSUS I, esse equipamento eletrônico digital a válvulas, foi utilizado para decifrar códigos militares dos alemães; V
+Em 1946, o ENIAC (Eletronic Numeric Integrator Analyser and Calculator) foi apresentado como o 1° grande computador eletrônico, ocupava quase 200 metros quadrados, pesava 30 toneladas e utilizava 18 mil válvulas, 10 mil capacitores e milhares de relés e resistores, conseguia 5 mil adições por segundo; V
+Em 1950, John Von Neuman, Arthur Burks e Hermn Goldstine desenvolvem a lógica dos circuitos, conceitos de programas e operações por números binários utilizados até hoje; V
+Em 1951, o UNIVAC I, 1° computador a utilizar os conceitos de Von Neuman, é produzido em escala comercial, pesava 5 toneladas e ocupava 20 metros quadrados; V
+Em 1959 ocorrou o fim dos computadores pioneiros ou de 1ª geração, baseados em válvulas; V
+São características dos computadores de primeira geração: circuitos eletrônicos e válvulas, uso restrito, programado a cada tarefa, grande consumo de energia, excesso de aquecimento; V 
+A 2ª geração dos computadores se deu entre as décadas de 50 e 60, onde o grande avanço foi a substituição das válvulas pelos transistores, seu tamanho era 100 vezes menor que o da válvula; V
+São características da segunda geral de computadores: inicio do uso comercial, ganho de velocidade, tamanho e custo, linguagens usadas: fortran e cobol (algol); V
+A segunda geração de computadores apresentou um menor consumo de eneriga elétrica; V
+A terceira geração se deu nas décadas de 60 e 70, os transistores foram substituídos pela tecnologia de circuitos integrados (associação de transistores em pequena placa de silício); V
+Os computadores de terceira geração marcaram o inínio do uso de computadores pessoais; V
+Os computadores de segunda geração marcaram o inínio do uso de computadores pessoais; F
+A 4ª geração se estende desde a década de 70 até os dias atuais, onde se teve uma otimização da tecnologia já existente, surgem os micros chips ou processadores; V 
+Os computadores da quinta geração usam processadores com milhões de transistores; v
+Foi na quinta geração de computadores que surgiram os computadores com arquitetura de 64 bits; V
+Foi na segunda geração de computadores que surgiram os computadores com arquitetura de 64 bits; F
+A quinta geração de computadores está sendo marcada pelo uso da inteligência artificial e por sua conectividade; v
+A segunda geração de computadores está sendo marcada pelo uso da inteligência artificial e por sua conectividade; f
+Foi na quinta geração de computadores que surgiu a Inteligência Artificial; V 
+Foi na terceira geração de computadores que surgiu a Inteligência Artificial; F
+Foi na quinta geração de computadores que surgiu a computação nas nuvens; V
+Foi na terceira geração de computadores que surgiu a computação nas nuvens; F
+A computação ubíqua refere-se à presença direta das tecnologias na vida das pessoas, em casa ou convívio social; V
+A realidade aumentada surgiu durante a quinta geração de computadores; v
+A realidade aumentada surgiu durante a segunda geração de computadores; F
+A computação distribuída surgiu durante a terceira geração de computadores; F
+A computação distribuída surgiu durante a quinta geração de computadores; V 
+Os chamados computadores analógicos processam sinais elétricos variáveis, aplicados a problemas de controle de processos, sua precisão e velocidade são menores que a dos computadores digitais; V 
+Os computadores digitais representam tanto a programação como os dados por meio de dígitos, através de ( 0 e 1), sua velocidade é medida em megahertz; V
+Quanto ao porte ou tamanho de computadores, podemos classificá-los como: mainframes, supercomputadores, minicomputadores e microcomputadores; V 
+Mainframes (Computadores de Grande Porte) Manipulam grande quantidade de informações atendendo vários usuários ao mesmo tempo, especialmente voltados a aplicações comerciais, v=10 mips; v
+Supercomputadores são geralmente utilizados em laboratórios de pesquisa, centros militares de inteligência artificial, muito rápido, avalia-se o desempenho através de instruções executadas por segundo, v=100 mips; V
+Os chamados minicomputadores possuem alguns dos recursos de um mainframe, tem um bom processamento e equipam laboratórios de empresas de desenvolvimento e centros de estudos; V
+Microcomputadores são máquinas voltadas para o uso de pequenas empresas, escolas e uso doméstico, são divididos em duas categorias: mesa (desktops e portáteis (notebooks); V
+Em computação, o termo MIPS significa milhões de instruções por segundo; V
+Em computação, o termo MIPS significa média de instruções por segundo; F
+Cada conjunto de 8 bits forma um byte, o qual corresponde a um caracter, seguindo o código binário; V
+No caso do quilo e de outras medidas de nosso dia a dia, a estrutura numérica é construída sobre a base 10; V
+Diferente do kilograma que tem por base o número 10, o kilobyte tem por base numérica o 2; V
+Hardware é um termo em inglês que não tem uma tradução específica, deriva da palavra hard em inglês, que significa duro. É usado para definir todos os componentes físicos (mecânicos, magnéticos e eletrônicos) de um computador; V
+O hardware de um computador pode ser dividido basicamente em quatro categorias: processador, placa-mãe, memória e dispositivos de entrada e saída; v
+O processador, também chamado de Unidade Central de Processamento (UCP), do inglês Central Processing Unit (CPU), é o principal componente eletrônico de um computador; V
+Pode-se dizer que depois do processador, a parte mais importante de um computador é a sua memória; V
+Se o processador é o “cérebro” do computador, pode-se comparar a placa-mãe a um “sistema nervoso”; V
+A informação é o dado processado e tornado útil para alguém, após consulta; V
+É melhor não se ter uma informação do que a tê-la errada; V
+Se um programa funciona, não significa que ele esteja correto do ponto de vista de seu algorítmo. Se ele não funciona, certamente está errado; V
+Dado é o elemento básico da informação, é um registro da informação, qualquer elemento que sirva de ponto de partida para uma decisão, cálculo ou medida, os dados ao serem processados dão lugar à informação; V
+Barramento é um conjunto de linhas de comunicação que permitem a interligação entre dispositivos, como a CPU, a memória e outros periféricos; v
+Barramento é um conjunto de linhas de comunicação que não permitem que os dispositivos acessem alguns dados por razões de seguranã; F 
+O desempenho do barramento de um computador é medido pela sua largura de banda (quantidade de bits que podem ser transmitidos ao mesmo tempo), geralmente potências de dois; V
+Em computação o termo bps significa bits por segundo. Trata-se de uma medida de velocidade de transmissão e quanto menor, melhor; F
+Em computação a velocidade de 128bps é cerca de 4 vezes menor que a de 1kbps; V
+Em computação a velocidade de 128bps é cerca de 4 vezes maior que a de 1kbps; F
+Em suma existem 3 funções para os barramentos: comunicação de dados, comunicação de endereços e comunicação de controle; V
+Em computação, num sistema hierárquico de barramentos existem vários níveis de barramento divididos pela prioridade e velocidade; V
+Os periféricos usam normalmente formatos de dados e tamanhos de palavras diferentes dos do computador a que estão agarrados; V
+A taxa de transferência de dados dos periféricos é normalmente mais baixa do que a da memória do processador sendo inviável usar o barramento de alta-velocidade para comunicação com periférico; V 
+São exemplos de Barramentos de Entrada e Saída: AGP, EISA, IrDA, ISA, MCA, PCI, PCI-e, Pipeline, SCSI, VESA, USB, e PS/2; V
+O principal fator que determina o desempenho de um barramento é a sua taxa de transferência; v 
+A taxa de transferência não é um fato essencial para determinar o desempenho de um barramento nos computadores modernos, devido à sua baixa latência; F
+Em relação à pentes de memória RAM a sigla DDR significa Double Data Rate, que significa Dupla Taxa de Transferência; V 
+Em relação à pentes de memória RAM a sigla DDR significa Delay Data Rate, que significa Taxa de Atraso de Transferência; F 
+Em relação a hierarquia de memórias, pode-se afirmar que registradores são mais lentos que a memória cache; F
+Em relação a hierarquia de memórias, pode-se afirmar que registradores são mais rápidos que a memória cache; F
+Em relação a hierarquia de memórias, pode-se afirmar que registradores são mais rápidos que a RAM; V
+Em relação a hierarquia de memórias, pode-se afirmar que registradores são mais lentos que a RAM; F
+Em relação a hierarquia de memórias, pode-se afirmar que a RAM é mais lenta que a memória secundária; F
+Em relação a hierarquia de memórias, pode-se afirmar que a RAM é mais rápida que a memória secundária; F
+É comum representar-se a hierarquia de memória de um computador pelo desenho de uma pirâmide; V
+É comum representar-se a hierarquia de memória de um computador pelo desenho de retângulo; F 
+Cada controlador de dispositivo tem seus registradores. Esses registradores são usados para comunicar com a CPU. Por meio da escrita nesses registradores do controlador de dispositivo, o S.O pode comandar o dispositivo; v
+Uma tela touch (screen) pode ser considerada um dispositivo de entrada e de saída ao mesmo tempo; V
+Um tela touch (screen) é tipicamente um dispositivo exclusivamente de entrada, pois tocamos nela para entrar com os dados desejados; F 
+O matemático John von Neumann propôs o conceito de ULA em 1945, quando escreveu um relatório sobre os fundamentos para um novo computador chamado EDVAC; V
+A ULA de uma CPU tem entre outras funções a de realizar comparações entre dados; V
+A ULA de uma CPU tem entre outras funções a de realizar a reserva de RAM para fazer comparações entre dados; V
+A ULA de uma CPU não consegue fazer divisões; F
+A ULA de uma CPU não consegue determinar se um número é positivo, negativo ou zero; F
+A ULA de uma CPU pode executar comparações lógicas com letras e com números; V
+A ULA de uma CPU moderna não consegue executar comparações lógicas com letras e com números; f
+Num computador, em geral, cada instrução é executada em 3 etapas: acesso à memória, decodificação da instrução e execução; V
+Quando uma instrução é acessada/buscada na memória ela é guardada no registrador de instrução, interno à CPU; v
+O ciclo de busca e execução descreve em essência o modo como um computador funciona: a instrução deve ser buscada na memória principal e depois executada pela CPU; V
+Cada CPU de computador pode ter vários ciclos diferentes, baseados em diferentes conjuntos de instruções; V
+Em Ciência da Computação, uma interrupção de hardware (ou de software) é um sinal de um dispositivo que tipicamente resulta em uma troca de contextos, isto é, o processador para de fazer o que está fazendo para atender o dispositivo que pediu a interrupção; V
+Em Ciência da Computação, uma interrupção de hardware (ou de software) é um sinal de um dispositivo que tipicamente é resultante de um defeito de hardware; F
+Computadores digitais geralmente oferecem uma maneira de iniciar rotinas de software em resposta a eventos eletrônicos assíncronos, sinalizados para o processador através de pedidos de interrupção; V
+Computadores analógicos geralmente oferecem uma maneira de parar rotinas de software em resposta a eventos eletrônicos assíncronos, sinalizados para o processador através de pedidos de interrupção; F
+Interrupções permitem aos processadores modernos responder a eventos gerados por dispositivos enquanto outro trabalho está sendo realizado; V
+Pipeline é uma técnica de hardware que permite que a CPU realize a busca de uma ou mais instruções além da próxima a ser executada; V
+A técnica de pipeline é utilizada para acelerar a velocidade de operação da CPU, uma vez que a próxima instrução a ser executada está normalmente armazenada nos registradores da CPU e não precisa ser buscada da memória principal que é muito mais lenta; V
+A técnica de pipeline é semelhante a uma linha de produção de fábrica. Cada instrução de um microprocessador passa por diversas fases até sua execução; V
+CISC ou Complex Instruction Set Computer é uma arquitetura de processadores capaz de executar centenas de instruções complexas diferentes o que a torna extremamente versátil; V
+RISC (acrônimo de Reduced Instruction Set Computer, em português, "Computador com um conjunto reduzido de instruções"); V
+A arquitetura RISC é constituída por um pequeno conjunto de instruções simples que são executadas diretamente pelo hardware, onde não há a intervenção de um interpretador (microcódigo); V
+Ao contrário dos complexos CISC, os processadores RISC são capazes de executar apenas poucas instruções simples, e justamente por isso que os chips baseados nesta arquitetura são mais simples e muito mais baratos; V 
+Atualmente não se pode afirmar com 100% de certeza que um processador utiliza apenas a arquitetura CISC ou RISC, pois os modelos atuais de processadores abrigam as características de ambas as arquiteturas; v

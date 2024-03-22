@@ -92,7 +92,7 @@ def hello():
     print('                    CENTRO DE EDUCAÇÃO TECNOLÓGICA DO AMAZONAS')
     print('')
     print('             😊' + ' ALEGRIA 1.0 - SIMULADOR DE QUESTÕES SOBRE TECNOLOGIA')  
-    print('                          by: prof. Marcelo Fournier & time')
+    print('                       by: prof. Marcelo Fournier & time')
     print("")
     linha()
     data_hora()

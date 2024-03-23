@@ -1,5 +1,9 @@
 import os
 
+# Verifica erros no arquivo de questões.
+# Se houver alguma linha fora do padrão desejado, o programa informará o número da linha
+# e mostrará a questão.
+
 def verificar_arquivo_quiz(arquivo):
     try:
         with open(arquivo, 'r') as f:

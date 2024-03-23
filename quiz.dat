@@ -170,7 +170,6 @@ No linux o comando makedir cria um diretório; F
 No linux o comando touch cria um arquivo vazio; v 
 No linux o comando trex lista uma árvore com a estrutura de diretórios; F 
 No linux o comando CONTROL + L limpa a tela do terminal; V 
-No linux o comando clear limpa a tela do terminal; V 
 Para se instalar um programa baixado na internet e que tenha a extensão *.deb devemos utilizar o seguinte comando: sudo apt install nome_do_programa.deb; f 
 Para se conectar a uma máquina remota usando o protocolo SSH na porta 8822 devemos utilizar o seguinte comando: ssh -p 8822 usuario@ip_da_maquina; V 
 Com o protocolo SSH não é possível acessar uma máquina linux a partir de um computador com Windows 11; F 
@@ -529,3 +528,630 @@ RISC (acrônimo de Reduced Instruction Set Computer, em português, "Computador 
 A arquitetura RISC é constituída por um pequeno conjunto de instruções simples que são executadas diretamente pelo hardware, onde não há a intervenção de um interpretador (microcódigo); V
 Ao contrário dos complexos CISC, os processadores RISC são capazes de executar apenas poucas instruções simples, e justamente por isso que os chips baseados nesta arquitetura são mais simples e muito mais baratos; V 
 Atualmente não se pode afirmar com 100% de certeza que um processador utiliza apenas a arquitetura CISC ou RISC, pois os modelos atuais de processadores abrigam as características de ambas as arquiteturas; v
+O Python é uma linguagem de programação de tipagem estática; F
+HTML é uma linguagem de marcação utilizada para construir páginas web; V
+A complexidade de tempo do algoritmo de ordenação quicksort é O(n log n); V
+O modelo OSI (Open Systems Interconnection) possui 6 camadas; F
+O PHP é uma linguagem de programação amplamente utilizada para desenvolvimento web; V
+O algoritmo de busca em largura (BFS) é usado para encontrar o menor caminho em um grafo ponderado; F
+A linguagem de programação C foi desenvolvida por Dennis Ritchie nos anos 1970; V
+O protocolo HTTP (Hypertext Transfer Protocol) é um protocolo de comunicação utilizado para transferir dados na World Wide Web; V
+O algoritmo de busca binária só pode ser aplicado em listas ordenadas; V
+A arquitetura de computadores de Von Neumann possui 4 componentes principais: CPU, memória, entrada e saída; V
+A arquitetura x86 é baseada em complexidade de instrução reduzida (CISC); V
+Os processadores modernos utilizam a tecnologia de fabricação de semicondutores baseada em silício; V
+O clock do processador é medido em ciclos por segundo, sendo a unidade padrão hertz (Hz); V
+A execução fora de ordem é uma técnica utilizada pelos processadores para aumentar a eficiência do pipeline; V
+A cache L1 é a maior e mais lenta entre as caches presentes em um processador; F
+A microarquitetura ARM é amplamente utilizada em dispositivos móveis, como smartphones e tablets; V
+O barramento frontal (FSB) é responsável por conectar a CPU aos dispositivos periféricos; F
+A tecnologia Hyper-Threading da Intel permite que um núcleo físico execute múltiplas threads simultaneamente; V
+O Overclocking é uma prática que envolve aumentar a frequência de operação de um processador para obter um desempenho superior; V
+A arquitetura RISC (Reduced Instruction Set Computing) prioriza o uso de um conjunto reduzido de instruções simples e eficientes; V
+Python é uma linguagem de programação de alto nível; V
+O Python é uma linguagem compilada; F
+Python utiliza a indentação para definir blocos de código; V
+Em Python, todas as variáveis precisam ser declaradas explicitamente antes de serem utilizadas; F
+Python é uma linguagem orientada a objetos; V
+A função print() em Python é utilizada para receber entrada do usuário; F
+O Python suporta herança múltipla; V
+É possível utilizar Python para desenvolver aplicativos web; V
+Python é uma linguagem de tipagem estática; F
+O Python é amplamente utilizado em áreas como ciência de dados, desenvolvimento web e automação de tarefas; V
+Em Python, a indexação de listas começa em 0; V
+O Python é uma linguagem interpretada; V
+Python é uma linguagem case-sensitive; V
+O Python é uma linguagem fortemente tipada; V
+Python suporta programação assíncrona por meio do módulo asyncio; V
+Em Python, todos os métodos de uma classe devem retornar um valor explicitamente; F
+É possível criar listas heterogêneas em Python, ou seja, listas que podem conter elementos de diferentes tipos de dados; V
+Python não suporta sobrecarga de operadores; F
+Python possui um operador de potência representado por ^; F
+Em Python, a palavra-chave pass é utilizada para definir loops; f
+Python é uma linguagem de programação interpretada e compilada ao mesmo tempo; V
+Em Python, a função range() cria uma lista de números sequenciais; F
+Em Python, uma string é imutável, o que significa que não pode ser alterada após sua criação; V
+Python possui um operador específico para comparar se dois objetos são iguais; V
+Python permite a declaração de variáveis com nomes iniciados por números; F
+Em Python, uma classe pode herdar de múltiplas classes pai; V
+O Python possui um tipo de dados chamado "tuple" que é mutável; F
+O Python suporta programação funcional, permitindo o uso de funções de alta ordem; V
+Python é uma linguagem tipada dinamicamente, o que significa que o tipo de uma variável pode ser alterado durante a execução do programa; V
+Em Python, o operador is é utilizado para verificar se dois objetos têm o mesmo valor; F
+Java é uma linguagem de programação puramente orientada a objetos; V
+Java é compilada em bytecode, que é então executado pela Máquina Virtual Java (JVM); V
+Em Java, todas as variáveis devem ser explicitamente tipadas; V
+Java suporta herança múltipla; F
+A palavra-chave static em Java é utilizada para criar métodos que podem ser chamados sem a necessidade de criar uma instância da classe; V
+Java é uma linguagem case-insensitive; V
+Java possui um coletor de lixo (garbage collector) que automaticamente gerencia a memória do programa, liberando memória não utilizada; V
+Em Java, a indexação de arrays começa em 1; F
+Java é uma linguagem interpretada; F
+Java não suporta a criação de aplicações web; F
+Em Java, a palavra-chave final pode ser usada para impedir que uma classe seja subclasseada; V
+Java suporta o conceito de polimorfismo, onde um objeto pode ser tratado como se fosse de um tipo diferente daquele com o qual foi instanciado; V
+Em Java, é possível criar uma variável de classe (static) sem instanciar a classe; V
+Java é uma linguagem de programação de baixo nível, adequada principalmente para sistemas operacionais e drivers de dispositivos; F
+Em Java, a palavra-chave break pode ser usada para interromper a execução de um loop ou switch-case; V
+Java é uma linguagem fortemente tipada, o que significa que todas as variáveis devem ter um tipo definido; V
+Java permite a sobrecarga de métodos, o que significa que é possível ter vários métodos com o mesmo nome, desde que tenham parâmetros diferentes; V
+Java é uma linguagem de programação de código aberto; F
+Em Java, o operador == compara o conteúdo de dois objetos; F
+Java suporta programação paralela e concorrente por meio das classes e interfaces do pacote java.util.concurrent; V
+Um algoritmo é uma sequência finita de instruções bem definidas e não ambíguas para resolver um problema; V
+Um algoritmo eficiente é aquele que consome poucos recursos computacionais, como tempo de execução e memória; V
+Algoritmos de ordenação são utilizados para reorganizar os elementos de uma lista em uma ordem específica, como crescente ou decrescente; V
+O método da busca binária é um algoritmo de busca que requer que a lista esteja ordenada antes de sua aplicação; V
+O algoritmo de ordenação Bubble Sort possui complexidade de tempo O(n log n) no pior caso; F
+A técnica de divisão e conquista é comumente utilizada em algoritmos recursivos; V
+O algoritmo de busca em profundidade (DFS) é adequado para encontrar o menor caminho entre dois nós em um grafo ponderado; F
+O algoritmo de busca linear é mais eficiente do que o algoritmo de busca binária em listas não ordenadas; F
+O algoritmo de Dijkstra é utilizado para encontrar o caminho mais curto entre dois nós em um grafo ponderado; V
+O algoritmo Quicksort é estável, o que significa que preserva a ordem relativa de elementos com chaves iguais; F
+Um resistor é um componente eletrônico que limita o fluxo de corrente em um circuito; V
+A lei de Ohm estabelece que a corrente em um circuito é diretamente proporcional à tensão e inversamente proporcional à resistência; V
+Um diodo é um componente eletrônico que permite a passagem de corrente apenas em uma direção; V
+A unidade de medida da corrente elétrica é o volt (V); F
+Um capacitor armazena energia na forma de campo elétrico; V
+Um circuito em série é aquele em que os componentes estão conectados um após o outro, formando um único caminho para a corrente; V
+A unidade de medida da resistência elétrica é o ohm (Ω); V
+Um transistor é um componente eletrônico que amplifica ou controla o fluxo de corrente em um circuito; V
+A tensão elétrica é medida em amperes (A); F
+Um LED é um tipo de diodo que emite luz quando uma corrente elétrica o atravessa; V
+Um circuito em paralelo é aquele em que os componentes estão conectados em pontos comuns, proporcionando múltiplos caminhos para a corrente; V
+A unidade de medida da tensão elétrica é o watt (W); F
+Um fusível é um dispositivo de segurança que protege os circuitos elétricos contra correntes excessivas; V
+Um potenciômetro é um tipo de resistor variável cuja resistência pode ser ajustada manualmente; V
+A unidade de medida da potência elétrica é o joule (J); F
+Um transformador é um dispositivo eletrônico que converte corrente alternada em corrente contínua; F
+Um amplificador operacional é um tipo de componente eletrônico usado para amplificar sinais elétricos; V
+O valor de um resistor é determinado pela combinação de suas cores; V
+Um multímetro é um instrumento utilizado para medir grandezas elétricas como tensão, corrente e resistência; V
+Um relé é um dispositivo eletromecânico que é ativado por uma corrente elétrica e controla o funcionamento de outros dispositivos no circuito; V
+A corrente elétrica é definida como o movimento ordenado de cargas elétricas em um condutor; V
+A diferença de potencial, ou tensão elétrica, é medida em amperes (A); F
+A resistência elétrica de um material é influenciada por sua temperatura; V
+Em um circuito em série, a corrente elétrica é a mesma em todos os componentes; V
+Um amperímetro é um instrumento utilizado para medir a diferença de potencial em um circuito; F
+A potência elétrica é calculada multiplicando-se a corrente elétrica pela resistência do circuito; F
+Um circuito em paralelo é aquele em que os componentes estão conectados em série, proporcionando múltiplos caminhos para a corrente; F
+Um resistor é um componente que aumenta a corrente elétrica em um circuito; F
+Um diodo é um componente eletrônico que permite o fluxo de corrente apenas em uma direção; V
+A unidade de medida da potência elétrica é o watt (W); V
+Um fusível é um dispositivo que protege os circuitos elétricos contra correntes excessivas, interrompendo o fluxo de corrente; V
+A energia elétrica consumida por um dispositivo é calculada multiplicando-se sua potência pelo tempo de uso; V
+A intensidade da corrente elétrica é medida em joules (J); F
+Um voltímetro é um instrumento utilizado para medir a diferença de potencial em um circuito; V
+A eletricidade estática é causada pelo acúmulo de cargas elétricas em um objeto; V
+Um capacitor é um componente que armazena energia na forma de campo magnético; F
+Um transformador é um dispositivo que converte corrente alternada em corrente contínua; F
+Um banco de dados é um conjunto organizado de dados que são armazenados e acessados eletronicamente; V
+O SQL (Structured Query Language) é uma linguagem de programação utilizada para gerenciar e manipular dados em bancos de dados relacionais; V
+Um banco de dados relacional organiza os dados em tabelas, onde cada tabela consiste em linhas e colunas; V
+Um índice em um banco de dados é uma estrutura que melhora a velocidade de recuperação de dados, permitindo pesquisas rápidas em grandes conjuntos de dados; V
+O modelo de dados NoSQL é uma alternativa aos bancos de dados relacionais e é projetado para lidar com grandes volumes de dados não estruturados ou semiestruturados; V
+O conceito de ACID (Atomicidade, Consistência, Isolamento e Durabilidade) é importante para garantir a integridade dos dados em um banco de dados; V
+Um banco de dados distribuído é um banco de dados no qual os dados são armazenados em diferentes locais físicos e podem ser acessados e gerenciados como se estivessem em um único local; V
+O modelo de dados hierárquico organiza os dados em uma estrutura de árvore, onde cada nó pode ter um ou mais nós filhos; V
+Um SGBD (Sistema de Gerenciamento de Banco de Dados) é um software que permite aos usuários criar, modificar e acessar bancos de dados; V
+O modelo de dados de rede é uma extensão do modelo hierárquico, no qual um registro pode ter múltiplos pais e filhos; V
+Um banco de dados OLTP (Online Transaction Processing) é projetado para suportar transações de curta duração e alto volume de operações de entrada e saída; V
+No modelo de dados ER (Entidade-Relacionamento), uma entidade representa um objeto do mundo real e um relacionamento descreve a associação entre entidades; V
+A normalização de um banco de dados é o processo de organizar as tabelas e os relacionamentos de modo a reduzir a redundância e garantir a integridade dos dados; V
+O modelo de dados dimensional é projetado para suportar consultas complexas e análises de dados em um ambiente de data warehousing; V
+Um banco de dados em memória é um tipo de banco de dados que armazena os dados na memória principal do computador, o que pode resultar em melhor desempenho em comparação com os bancos de dados em disco; V
+O comando SQL SELECT é usado para recuperar dados de uma tabela ou conjunto de tabelas em um banco de dados; V
+Um backup de banco de dados é uma cópia dos dados armazenados em um banco de dados que é usada para restaurar os dados em caso de falha ou corrupção do banco de dados; V
+Um banco de dados NoSQL baseado em documentos armazena os dados em documentos semiestruturados, como JSON ou XML; V
+A linguagem de consulta MongoDB (MQL) é uma linguagem de consulta utilizada para interagir com bancos de dados MongoDB; V
+O modelo de dados em estrela é uma técnica de modelagem de dados usada em data warehousing, onde os dados são organizados em uma tabela de fatos centralizada, rodeada por tabelas de dimensão; V
+SQL é a sigla para Structured Query Language; V
+O comando SQL utilizado para selecionar dados de uma tabela é o SELECT; V
+O comando SQL utilizado para inserir dados em uma tabela é o INSERT; V
+O comando SQL utilizado para atualizar dados em uma tabela é o UPDATE; V
+O comando SQL utilizado para excluir dados de uma tabela é o DELETE; V
+O comando SQL utilizado para criar uma nova tabela é o CREATE TABLE; V
+O comando SQL utilizado para modificar uma tabela existente é o ALTER TABLE; V
+O comando SQL utilizado para excluir uma tabela é o DROP TABLE; V
+O comando SQL utilizado para filtrar registros em uma consulta é o WHERE; V
+O comando SQL utilizado para ordenar os resultados de uma consulta é o ORDER BY; V
+O comando SQL utilizado para agrupar os resultados de uma consulta é o GROUP BY; V
+O comando SQL utilizado para calcular a soma de valores em uma coluna é o SUM; V
+O comando SQL utilizado para contar o número de registros em uma tabela é o COUNT; V
+O comando SQL utilizado para encontrar o valor máximo em uma coluna é o MAX; V
+O comando SQL utilizado para encontrar o valor mínimo em uma coluna é o MIN; V
+O comando SQL utilizado para realizar junções entre tabelas é o JOIN; V
+O tipo de dados TEXT em SQL é utilizado para armazenar strings de caracteres variáveis; V
+O tipo de dados INTEGER em SQL é utilizado para armazenar números inteiros; V
+O tipo de dados DATE em SQL é utilizado para armazenar datas no formato "AAAA-MM-DD"; V
+O tipo de dados BOOLEAN em SQL é utilizado para armazenar valores verdadeiro/falso; V
+Um sistema operacional é um software responsável por gerenciar os recursos de hardware e fornecer serviços aos programas de aplicação; V
+O Windows, o macOS e o Linux são exemplos de sistemas operacionais; V
+O kernel é a parte central de um sistema operacional responsável por gerenciar recursos de hardware e fornecer serviços aos programas de aplicação; V
+Um sistema operacional de tempo real é projetado para processar eventos em um prazo específico, garantindo que as operações sejam concluídas dentro de um prazo determinado; V
+Um sistema operacional de lote (batch) processa tarefas em lotes, sem interação do usuário, seguindo uma sequência predefinida de comandos; V
+A multitarefa é a capacidade de um sistema operacional executar múltiplos programas simultaneamente, compartilhando os recursos do sistema entre eles; V
+Um sistema operacional de tempo compartilhado (time-sharing) permite que vários usuários compartilhem os recursos de um sistema computacional, alternando rapidamente entre as tarefas em execução; V
+A memória virtual é uma técnica utilizada por sistemas operacionais para gerenciar a memória física e virtual, permitindo que os programas utilizem mais memória do que está fisicamente disponível; V
+O sistema de arquivos é a estrutura utilizada por um sistema operacional para organizar e armazenar dados em dispositivos de armazenamento, como discos rígidos e unidades flash; V
+O escalonamento de processos é uma técnica utilizada por sistemas operacionais para determinar a ordem em que os processos serão executados pela CPU; V
+O Windows Explorer e o Finder são exemplos de gerenciadores de arquivos utilizados em sistemas operacionais; V
+Um sistema operacional monolítico é aquele em que todos os componentes do sistema operacional residem em um único núcleo (kernel); V
+Um sistema operacional distribuído é aquele em que os recursos de computação são distribuídos entre vários computadores interconectados em uma rede; V
+A paginação é uma técnica de gerenciamento de memória utilizada por sistemas operacionais para alocar e desalocar espaço na memória conforme necessário; V
+O boot é o processo de inicialização de um computador, durante o qual o sistema operacional é carregado na memória e os dispositivos são inicializados; V
+Um sistema operacional de tempo compartilhado (time-sharing) é essencial para sistemas multiusuários; V
+O escalonamento de processos é uma parte essencial dos sistemas operacionais multitarefa; V
+Um sistema operacional de tempo real é crítico em aplicações que exigem resposta imediata, como sistemas de controle industrial e sistemas de navegação aérea; V
+O sistema de arquivos FAT (File Allocation Table) é amplamente utilizado em dispositivos de armazenamento removíveis, como pen drives e cartões de memória; V
+Um sistema operacional de código aberto é aquele cujo código-fonte está disponível publicamente e pode ser modificado e distribuído livremente; V
+A multiprogramação é uma técnica utilizada por sistemas operacionais para aumentar a eficiência do processador, permitindo a execução simultânea de múltiplos programas; V
+Um sistema operacional de 32 bits é capaz de endereçar até 4 GB de memória RAM; V
+O sistema de arquivos NTFS (New Technology File System) é o sistema de arquivos padrão utilizado pelo sistema operacional Windows; V
+O sistema de arquivos ext4 é um sistema de arquivos utilizado por padrão em distribuições Linux; V
+O sistema operacional Android é baseado no kernel Linux e é projetado para dispositivos móveis, como smartphones e tablets; V
+O Windows Task Manager e o Linux top são exemplos de utilitários de monitoramento de processos em sistemas operacionais; V
+O gerenciamento de memória virtual é importante para otimizar o uso de memória física e aumentar a capacidade disponível para os programas em execução; V
+O sistema operacional UNIX foi desenvolvido nos laboratórios Bell da AT&T na década de 1970 e é amplamente utilizado em servidores e sistemas embarcados; V
+Um sistema operacional de tempo real pode ser usado em sistemas críticos, como sistemas de controle industrial e sistemas de navegação aérea; V
+Um sistema operacional de 64 bits é capaz de endereçar uma quantidade muito maior de memória RAM do que um sistema de 32 bits; V
+O sistema de arquivos FAT32 é um sistema de arquivos utilizado em dispositivos de armazenamento removíveis e suporta arquivos de até 4 GB de tamanho; V
+O sistema operacional iOS é desenvolvido pela Apple e é utilizado em dispositivos móveis, como iPhones e iPads; V
+O prompt de comando é uma interface de linha de comando utilizada para interagir com o sistema operacional, fornecendo acesso a diferentes utilitários e comandos; V
+A virtualização é uma técnica utilizada por sistemas operacionais para criar ambientes virtuais isolados, permitindo a execução de múltiplos sistemas operacionais em um único hardware físico; V
+O sistema de arquivos exFAT (Extended File Allocation Table) é um sistema de arquivos otimizado para dispositivos de armazenamento de grande capacidade, como discos rígidos externos e cartões de memória; V
+O macOS é um sistema operacional desenvolvido pela Apple e é conhecido por sua interface gráfica elegante e sua integração com hardware da Apple; V
+O Windows Defender é um programa antivírus integrado ao sistema operacional Windows e é projetado para proteger contra ameaças de malware; V
+A inicialização de um computador envolve a execução de uma sequência de etapas, incluindo o POST (Power-On Self Test) e o carregamento do sistema operacional na memória; V
+Um sistema operacional de tempo real é essencial em sistemas que exigem resposta imediata a eventos, como sistemas de controle de tráfego aéreo e sistemas de monitoramento de processos industriais; V
+O valor decimal do número binário 101 é 6; F
+O valor decimal do número binário 1101 é 14; F
+O valor decimal do número binário 11100 é 24; F
+O valor decimal do número binário 100111 é 42; F
+O valor decimal do número binário 1111111 é 128; F
+O valor decimal do número binário 1000000 é 96; F
+O valor decimal do número binário 1100100 é 52; F
+O valor decimal do número binário 1110000 é 120; F
+O valor decimal do número binário 101010 é 44; F
+O valor decimal do número binário 110110 é 65; F
+O número binário correspondente ao valor decimal 42 é 101010; V
+O número binário correspondente ao valor decimal 157 é 10011100; F
+O número binário correspondente ao valor decimal 200 é 11001000; V
+O número binário correspondente ao valor decimal 85 é 1010101; V
+O número binário correspondente ao valor decimal 128 é 10000000; V
+O número binário correspondente ao valor decimal 34 é 100010; V
+O número binário correspondente ao valor decimal 73 é 1001001; V
+O número binário correspondente ao valor decimal 255 é 11111110; F
+O número binário correspondente ao valor decimal 88 é 1011000; V
+O número binário correspondente ao valor decimal 211 é 1101011; F
+O valor decimal do número binário 110 é 7; F
+O valor decimal do número binário 1011 é 12; F
+O valor decimal do número binário 1110 é 15; F
+O valor decimal do número binário 10010 é 18; F
+O valor decimal do número binário 111111 é 63; F
+O valor decimal do número binário 1000001 é 66; F
+O valor decimal do número binário 1101100 é 101; F
+O valor decimal do número binário 1111000 é 115; F
+O valor decimal do número binário 101101 é 45; F
+O valor decimal do número binário 11011 é 29; F
+O número binário correspondente ao valor decimal 58 é 111010; F
+O número binário correspondente ao valor decimal 160 é 10100000; V
+O número binário correspondente ao valor decimal 32 é 100000; V
+O número binário correspondente ao valor decimal 91 é 1011011; V
+O número binário correspondente ao valor decimal 217 é 11011001; V
+O número binário correspondente ao valor decimal 14 é 1110; V
+O número binário correspondente ao valor decimal 129 é 10000001; V
+O número binário correspondente ao valor decimal 76 é 1001100; V
+O processador é a unidade central de processamento (CPU) de um computador responsável por executar instruções e realizar cálculos; V
+A memória cache é uma memória de alta velocidade localizada entre a CPU e a memória principal, usada para armazenar dados frequentemente acessados; V
+A arquitetura de von Neumann é um modelo de computador que possui uma única unidade para processamento e armazenamento de dados, compartilhando o mesmo barramento; V
+A unidade de controle é a parte da CPU responsável por interpretar instruções e coordenar as operações do processador; V
+A unidade lógica e aritmética (ULA) é a parte da CPU responsável por realizar operações matemáticas e lógicas, como adição, subtração e comparações; V
+O barramento de dados é um conjunto de linhas que permite a transferência de dados entre a CPU, a memória e os dispositivos de entrada e saída; V
+O barramento de endereços é um conjunto de linhas que permite que a CPU acesse locais específicos na memória; V
+O barramento de controle é um conjunto de linhas que transmite sinais de controle entre os componentes do computador, como a CPU, a memória e os dispositivos de entrada e saída; V
+A memória RAM (Random Access Memory) é uma forma de memória volátil utilizada para armazenar dados e instruções temporariamente durante a execução de programas; V
+A memória ROM (Read-Only Memory) é uma forma de memória não volátil que armazena dados permanentes, como o firmware do sistema; V
+Um bit é a menor unidade de dados em um computador e pode representar um valor binário de 0 ou 1; V
+Um byte é composto por 8 bits e é a unidade básica de armazenamento de dados em um computador; V
+A unidade de armazenamento secundário, como um disco rígido ou uma unidade de estado sólido (SSD), é utilizada para armazenar dados permanentes, mesmo quando o computador está desligado; V
+O clock é um sinal eletrônico emitido pela CPU que sincroniza as operações de todos os componentes do computador; V
+A CPU (Unidade Central de Processamento) é composta pela unidade de controle, pela unidade aritmética e lógica e pelos registradores; V
+O conceito de pipeline é uma técnica utilizada para aumentar o desempenho da CPU, permitindo que várias instruções sejam executadas em paralelo; V
+O barramento SATA (Serial ATA) é um tipo de barramento utilizado para conectar dispositivos de armazenamento, como discos rígidos e SSDs, à placa-mãe de um computador; V
+O barramento PCI Express (PCIe) é um barramento de alta velocidade utilizado para conectar dispositivos de expansão, como placas de vídeo e placas de rede, à placa-mãe de um computador; V
+A GPU (Unidade de Processamento Gráfico) é um tipo de processador especializado em realizar cálculos relacionados a gráficos e é frequentemente utilizada em jogos e aplicativos de renderização; V
+A arquitetura RISC (Reduced Instruction Set Computer) é um tipo de arquitetura de processador que utiliza um conjunto reduzido de instruções, o que pode resultar em um desempenho mais eficiente; V
+No sistema operacional Windows, o comando utilizado para exibir o diretório atual é dir; F
+No sistema operacional Windows, o comando utilizado para criar um novo diretório é mkdir; V
+No sistema operacional Windows, o comando utilizado para remover um diretório vazio é rmdir; V
+No sistema operacional Windows, o comando utilizado para limpar a tela do terminal é cls; V
+No sistema operacional Windows, o comando utilizado para listar os arquivos e diretórios em um diretório é dir; V
+No sistema operacional Windows, o comando utilizado para mudar de diretório é cd; V
+No sistema operacional Windows, o comando utilizado para exibir o conteúdo de um arquivo de texto é type; V
+No sistema operacional Windows, o comando utilizado para copiar arquivos é copy; V
+No sistema operacional Windows, o comando utilizado para mover arquivos é move; V
+No sistema operacional Windows, o comando utilizado para renomear arquivos é rename; V
+No sistema operacional Windows, o comando utilizado para exibir a data e hora atuais é date ou time; V
+No sistema operacional Windows, o comando utilizado para exibir informações sobre o sistema é systeminfo; V
+No sistema operacional Windows, o comando utilizado para exibir informações sobre o hardware do sistema é systeminfo ou wmic; V
+No sistema operacional Windows, o comando utilizado para encerrar a sessão do usuário atual é shutdown /l; F
+No sistema operacional Windows, o comando utilizado para desligar o computador é shutdown /s; V
+No sistema operacional Windows, o comando utilizado para reiniciar o computador é shutdown /r; V
+No sistema operacional Windows, o comando utilizado para exibir a lista de processos em execução é tasklist; V
+No sistema operacional Windows, o comando utilizado para finalizar um processo é taskkill; V
+No sistema operacional Windows, o comando utilizado para criar um arquivo de texto é echo > nome_do_arquivo.txt; F
+No sistema operacional Windows, o comando utilizado para editar um arquivo de texto é edit; F
+Um backup de dados é uma cópia de segurança das informações armazenadas em um dispositivo ou sistema, geralmente feito para proteger contra perda de dados; V
+O objetivo principal de realizar backups de dados é garantir a disponibilidade e integridade das informações, possibilitando a recuperação em caso de perda, corrupção ou falha do sistema; V
+Os tipos comuns de backup de dados incluem backup completo, incremental e diferencial; V
+Um backup completo envolve a cópia de todos os dados selecionados em um único processo, independentemente de terem sido modificados desde o último backup; V
+Um backup incremental envolve a cópia apenas dos dados que foram modificados desde o último backup, reduzindo o tempo e o espaço de armazenamento necessários; V
+Um backup diferencial envolve a cópia dos dados que foram modificados desde o último backup completo, facilitando a restauração dos dados em comparação com backups incrementais; V
+É importante testar regularmente os backups de dados para garantir que as cópias de segurança sejam completas, consistentes e recuperáveis em caso de necessidade; V
+Os métodos de backup de dados mais comuns incluem backup local, backup em nuvem e backup em fita; V
+Um backup local é realizado em dispositivos de armazenamento físico, como discos rígidos externos ou servidores de rede local; V
+Um backup em nuvem envolve o armazenamento de cópias de segurança de dados em servidores remotos acessíveis pela Internet, oferecendo maior flexibilidade e escalabilidade; V
+Um backup em fita envolve o armazenamento de dados em fitas magnéticas, geralmente utilizadas para grandes volumes de dados e longo prazo de retenção; V
+Ter uma política de backup de dados ajuda a garantir a consistência, eficiência e segurança das operações de backup, definindo procedimentos, responsabilidades e prazos claros; V
+A retenção de dados em backups refere-se ao período de tempo pelo qual as cópias de segurança são mantidas antes de serem substituídas ou excluídas, com base em requisitos legais, regulatórios ou de negócios; V
+Os principais riscos associados ao processo de backup de dados incluem falhas técnicas, erros humanos, corrupção de dados, ataques cibernéticos e desastres naturais; V
+Backup é a cópia de dados realizada para fins de recuperação em caso de perda ou falha, enquanto arquivamento é a prática de mover dados não essenciais para armazenamento de longo prazo por razões regulatórias, legais ou de conformidade; V
+Ter uma estratégia de backup off-site é importante para garantir a recuperação de dados em caso de desastres que afetem a localização principal de armazenamento, como incêndios, inundações ou ataques físicos; V
+Um teste de restauração de backup é um procedimento realizado para verificar se as cópias de segurança podem ser recuperadas com sucesso em caso de necessidade, garantindo a confiabilidade do processo de backup; V
+Os fatores a serem considerados ao planejar uma estratégia de backup de dados incluem o volume de dados, a frequência de alterações, os requisitos de retenção, a segurança, o custo e a disponibilidade de recursos; V
+A deduplicação de dados em backups é o processo de identificar e eliminar duplicatas de informações armazenadas em cópias de segurança, reduzindo assim o espaço de armazenamento necessário; V
+A criptografia de dados em backups é importante para proteger informações sensíveis durante o armazenamento e a transmissão, garantindo a confidencialidade e a integridade dos dados; V
+Armazenamento de dados é o processo de guardar informações digitalmente para uso futuro; V
+Os tipos comuns de armazenamento de dados incluem armazenamento local, armazenamento em nuvem, armazenamento em rede e armazenamento em dispositivos externos; V
+Armazenamento local refere-se ao uso de dispositivos de armazenamento físico, como discos rígidos, SSDs e pendrives, conectados diretamente a um dispositivo ou servidor; V
+Armazenamento em nuvem envolve o uso de serviços de armazenamento remoto fornecidos por provedores de serviços na Internet, permitindo o acesso aos dados de qualquer lugar com conexão à Internet; V
+Armazenamento em rede refere-se ao uso de dispositivos de armazenamento compartilhado em uma rede local ou corporativa, permitindo o acesso aos dados por vários dispositivos conectados à rede; V
+Armazenamento em dispositivos externos refere-se ao uso de dispositivos portáteis, como discos rígidos externos, SSDs externos, pendrives e cartões de memória, para guardar dados fora do dispositivo principal; V
+Alguns fatores a serem considerados ao escolher um método de armazenamento de dados incluem requisitos de capacidade, necessidades de acesso, requisitos de segurança, custo, confiabilidade e necessidades de backup; V
+Armazenamento de dados em camadas é uma abordagem que envolve o uso de diferentes tipos e níveis de armazenamento para otimizar o desempenho, custo e eficiência na gestão de dados; V
+Virtualização de armazenamento é o processo de abstração de recursos de armazenamento físico para criar uma camada de armazenamento virtual, permitindo o gerenciamento simplificado e a alocação flexível de recursos; V
+Deduplicação de dados no armazenamento é o processo de identificação e eliminação de duplicatas de dados, reduzindo assim o espaço de armazenamento necessário e otimizando o desempenho; V
+A criptografia é usada no armazenamento de dados para proteger as informações sensíveis, garantindo que apenas pessoas autorizadas possam acessar e decifrar os dados; V
+Armazenamento de dados em cache envolve o armazenamento temporário de dados frequentemente acessados em uma área de armazenamento de acesso rápido, reduzindo assim o tempo de acesso aos dados; V
+Práticas recomendadas incluem implementar políticas de segurança de dados, realizar backups regulares, utilizar criptografia, monitorar o acesso aos dados, manter os sistemas atualizados e treinar os usuários sobre segurança da informação; V
+A virtualização de armazenamento oferece maior eficiência de utilização de recursos, simplificação da gestão, escalabilidade e flexibilidade na alocação de armazenamento; V
+Armazenamento em nuvem oferece acessibilidade remota, escalabilidade conforme necessário, redundância de dados para backup e potencialmente menor custo inicial; V
+A deduplicação de dados reduz o espaço de armazenamento necessário e otimiza o desempenho, identificando e eliminando duplicatas de informações; V
+A criptografia protege as informações sensíveis durante o armazenamento e a transmissão, garantindo a confidencialidade e a integridade dos dados; V
+Armazenamento de dados em cache reduz o tempo de acesso aos dados, armazenando temporariamente dados frequentemente acessados em uma área de armazenamento de acesso rápido; V
+As práticas recomendadas garantem a segurança e integridade do armazenamento de dados, incluindo políticas de segurança, backups regulares, monitoramento de acesso e treinamento de usuários; V
+A ética na computação envolve a reflexão sobre as consequências sociais, políticas e éticas do uso da tecnologia da informação; V
+A privacidade dos dados é um aspecto fundamental da ética na computação, garantindo que as informações pessoais dos usuários sejam protegidas e usadas de forma responsável; V
+A acessibilidade digital é um princípio ético importante que visa garantir que todos tenham acesso igualitário à tecnologia da informação, independentemente de suas habilidades ou limitações físicas; V
+O desenvolvimento de inteligência artificial levanta questões éticas sobre o uso responsável e ético da tecnologia, incluindo preocupações com viés algorítmico e impacto na força de trabalho; V
+A ética na computação também envolve considerações sobre a distribuição justa de recursos tecnológicos e acesso à informação, especialmente em comunidades carentes ou em desenvolvimento; V
+A segurança cibernética é uma preocupação ética crucial na era digital, exigindo que os profissionais de TI protejam os sistemas e dados contra ameaças cibernéticas e ataques maliciosos; V
+A responsabilidade social das empresas de tecnologia inclui a consideração dos impactos de suas decisões e produtos na sociedade, além de buscar formas de contribuir positivamente para o bem-estar geral; V
+O desenvolvimento e uso de armas autônomas levanta questões éticas sobre a responsabilidade moral das máquinas e a capacidade de tomar decisões que afetam vidas humanas; V
+A ética na computação exige transparência nas práticas de coleta, armazenamento e uso de dados, garantindo que os usuários sejam informados sobre como suas informações são manipuladas; V
+O equilíbrio entre inovação tecnológica e proteção dos direitos individuais é uma consideração ética importante na elaboração de políticas governamentais e regulamentações relacionadas à tecnologia da informação; V
+A ética na computação também aborda questões de responsabilidade profissional, exigindo que os profissionais de TI ajam de maneira ética e moralmente responsável em suas práticas e decisões; V
+A equidade algorítmica é uma preocupação ética crescente, destacando a necessidade de garantir que algoritmos e sistemas de IA não perpetuem preconceitos ou discriminem grupos sociais vulneráveis; V
+O uso ético da tecnologia da informação implica a consideração dos impactos ambientais de dispositivos eletrônicos e práticas de computação, incentivando práticas sustentáveis e responsáveis; V
+A ética na computação também envolve questões de propriedade intelectual e direitos autorais, garantindo o respeito aos direitos dos criadores de software, dados e conteúdo digital; V
+A alfabetização digital é um componente essencial da ética na computação, capacitando os indivíduos a tomar decisões informadas e éticas sobre seu uso da tecnologia; V
+A ética na computação exige uma abordagem multidisciplinar, envolvendo não apenas profissionais de TI, mas também filósofos, juristas, sociólogos e outros especialistas em ética e sociedade; V
+A ética na computação também inclui considerações sobre o impacto da tecnologia na saúde mental e bem-estar dos usuários, minimizando os efeitos negativos e promovendo o uso saudável da tecnologia; V
+A ética na computação exige transparência e responsabilidade das empresas de tecnologia em relação aos algoritmos e sistemas que influenciam as decisões e comportamentos dos usuários; V
+A ética na computação também aborda questões de governança da Internet, buscando garantir que a rede global seja gerenciada de maneira justa, aberta e equitativa para todos os usuários; V
+A ética na computação é uma preocupação global, exigindo colaboração e diálogo entre governos, empresas, academia e sociedade civil para abordar os desafios éticos emergentes na era digital; V
+O termo "browser" em inglês refere-se a um software utilizado para navegar na Internet; V
+"URL" é a sigla em inglês para "Uniform Resource Locator", que é usado para identificar recursos na Internet, como páginas da web; V
+"LAN" é a sigla em inglês para "Local Area Network", uma rede de computadores que abrange uma área pequena, como uma casa, escritório ou edifício; V
+O termo "email" em inglês é uma abreviação de "electronic mail", que se refere a mensagens digitais enviadas entre usuários através de sistemas de correio eletrônico; V
+"Firewall" em inglês é um termo usado para descrever um sistema de segurança que controla o tráfego de rede e protege uma rede privada contra acesso não autorizado; V
+"Software" é uma palavra em inglês que se refere a programas de computador e dados relacionados que fornecem instruções para o funcionamento de um computador; V
+"Hardware" é um termo em inglês que se refere aos componentes físicos de um computador, como processador, memória, disco rígido e placas de circuito; V
+"Backup" é uma palavra em inglês que descreve o processo de fazer uma cópia de segurança de dados importantes para evitar perda de informações em caso de falha do sistema; V
+O termo "bug" em inglês é usado para descrever um erro ou falha em um programa de computador que causa comportamento inesperado ou indesejado; V
+"Download" é uma palavra em inglês usada para descrever o processo de transferência de dados de um servidor remoto para um dispositivo local, como um computador; V
+"Upload" é um termo em inglês que se refere ao processo de transferir dados de um dispositivo local para um servidor remoto, como ao enviar arquivos para a Internet; V
+"Mouse" é uma palavra em inglês que se refere ao dispositivo de entrada utilizado para interagir com um computador, movendo o cursor na tela e selecionando elementos; V
+O termo "spam" em inglês é usado para descrever mensagens eletrônicas não solicitadas e indesejadas, geralmente enviadas em massa por email; V
+"Password" é uma palavra em inglês que se refere a uma sequência de caracteres utilizada para autenticar a identidade de um usuário e acessar um sistema protegido por senha; V
+"Download" e "Upload" são opostos em termos de direção da transferência de dados entre um dispositivo local e um servidor remoto; V
+"Byte" é uma unidade de medida de dados em inglês, equivalente a 8 bits; V
+"HTML" é a sigla em inglês para "Hypertext Markup Language", que é uma linguagem de marcação utilizada para criar páginas da web; V
+"CSS" é a sigla em inglês para "Cascading Style Sheets", que é uma linguagem de estilo utilizada para controlar a apresentação visual de páginas da web; V
+"JavaScript" é uma linguagem de programação em inglês frequentemente usada para adicionar interatividade e dinamismo a páginas da web; V
+"Wireless" é uma palavra em inglês usada para descrever tecnologias de comunicação sem fio, como Wi-Fi e Bluetooth; V
+"CPU" é a sigla em inglês para "Central Processing Unit", que é responsável pelo processamento de instruções e cálculos em um computador; V
+"RAM" é a sigla em inglês para "Random Access Memory", que é uma forma de memória volátil usada para armazenar temporariamente dados e instruções enquanto o computador está ligado; V
+"Sistema Operacional" é um software fundamental que gerencia recursos de hardware, fornece serviços para aplicativos e permite a interação do usuário com o computador; V
+"Protocolo TCP/IP" é um conjunto de regras e padrões que define como os dispositivos em uma rede se comunicam e trocam dados pela Internet; V
+"WWW" é a sigla em inglês para "World Wide Web", que é um sistema de informações global baseado na Internet que permite o acesso a páginas da web e outros recursos online; V
+"Ethernet" é uma tecnologia de rede com fio amplamente utilizada que define padrões para a transmissão de dados em uma LAN; V
+"VPN" é a sigla em inglês para "Virtual Private Network", que é uma rede privada virtual que estabelece uma conexão segura sobre uma rede pública, como a Internet; V
+"Firewall" é um dispositivo ou software que controla o tráfego de rede e protege uma rede contra ameaças externas, como hackers e malware; V
+"LAN" é a sigla em inglês para "Local Area Network", que é uma rede de computadores que abrange uma área pequena, como uma casa, escritório ou edifício; V
+"WAN" é a sigla em inglês para "Wide Area Network", que é uma rede de computadores que abrange uma área geográfica ampla, como uma cidade, país ou continente; V
+"SQL" é a sigla em inglês para "Structured Query Language", que é uma linguagem de programação usada para gerenciar e manipular dados em bancos de dados relacionais; V
+"IPv4" é a versão mais antiga do Protocolo de Internet, que usa endereços IP de 32 bits e suporta aproximadamente 4,3 bilhões de endereços únicos; V
+"IPv6" é a versão mais recente do Protocolo de Internet, que usa endereços IP de 128 bits e foi desenvolvido para resolver a escassez de endereços IPv4 e oferecer suporte a um número muito maior de dispositivos conectados à Internet; V
+"Backup" é uma cópia de segurança de dados importantes feita para evitar perda de informações em caso de falha do sistema; V
+"Malware" é um termo genérico usado para descrever software malicioso, como vírus, worms, trojans e spyware, que são projetados para danificar ou controlar um computador sem o consentimento do usuário; V
+"Redundância de dados" é uma técnica usada para garantir a disponibilidade e integridade dos dados, criando cópias adicionais de informações críticas em diferentes locais ou dispositivos; V
+"Interface de usuário" é o ponto de interação entre o usuário e um sistema de computador, que pode incluir elementos como menus, botões, janelas e ícones; V
+"Criptografia" é o processo de codificação de dados para proteger sua confidencialidade e integridade durante o armazenamento e a transmissão; V
+"DHCP" é a sigla em inglês para "Dynamic Host Configuration Protocol", que é um protocolo de rede usado para atribuir automaticamente endereços IP e outras configurações de rede a dispositivos em uma rede; V
+"DNS" é a sigla em inglês para "Domain Name System", que é um sistema de nomeação hierárquico usado para traduzir nomes de domínio em endereços IP e vice-versa; V
+"Switch" é um dispositivo de rede usado para encaminhar dados entre dispositivos em uma LAN com base nos endereços MAC dos dispositivos; V
+"Router" é um dispositivo de rede usado para encaminhar dados entre redes diferentes e determinar a melhor rota para os pacotes de dados; V
+"VLAN" é a sigla em inglês para "Virtual Local Area Network", que é uma rede lógica que segmenta uma rede física em grupos de dispositivos com base em critérios como departamento, função ou localização geográfica; V
+"SNMP" é a sigla em inglês para "Simple Network Management Protocol", que é um protocolo usado para monitorar e gerenciar dispositivos de rede, como roteadores, switches e servidores; V
+"NAT" é a sigla em inglês para "Network Address Translation", que é uma técnica usada para mapear endereços IP privados para endereços IP públicos e vice-versa, permitindo que dispositivos em redes privadas se comuniquem com a Internet; V
+"Subnet" é uma parte de uma rede IP maior que é identificada por uma máscara de sub-rede e inclui dispositivos com endereços IP semelhantes; V
+"Proxy" é um servidor intermediário usado para encaminhar solicitações de clientes para servidores de destino na Internet, atuando como um intermediário entre o cliente e o servidor; V
+"Wireless Access Point" é um dispositivo de rede usado para fornecer conectividade sem fio a dispositivos em uma rede local; V
+"Load Balancing" é uma técnica usada para distribuir o tráfego de rede entre vários servidores para melhorar o desempenho e a confiabilidade do sistema; V
+"Spanning Tree Protocol" é um protocolo de rede usado para evitar loops de caminho em redes Ethernet comutadas, desativando portas redundantes e selecionando o caminho mais curto entre dispositivos na rede; V
+"Firmware" é um software embutido em dispositivos de hardware, como roteadores e switches, que fornece instruções de baixo nível para o funcionamento do dispositivo; V
+"Bandwidth" é a quantidade máxima de dados que podem ser transmitidos por uma conexão de rede em um determinado período de tempo, geralmente medida em bits por segundo (bps); V
+"Redundância de link" é uma técnica usada para garantir a disponibilidade contínua de uma conexão de rede, fornecendo múltiplos caminhos de comunicação entre dispositivos; V
+"Port Forwarding" é uma técnica usada para direcionar o tráfego de rede de uma porta específica em um roteador para um dispositivo específico na rede interna; V
+"Remote Desktop Protocol" é um protocolo de rede usado para acessar e controlar um computador remotamente através da rede; V
+"Packet Sniffing" é uma técnica usada para capturar e analisar o tráfego de rede em uma rede local, permitindo aos administradores de rede diagnosticar problemas e monitorar a atividade da rede; V
+"TCP" é a sigla em inglês para "Transmission Control Protocol", que é um protocolo de comunicação confiável usado para estabelecer e manter conexões de rede entre dispositivos; V
+"IP" é a sigla em inglês para "Internet Protocol", que é um protocolo de rede usado para identificar e rotear pacotes de dados na Internet; V
+"Gateway" é um dispositivo de rede usado para conectar redes diferentes e rotear o tráfego entre elas; V
+"MAC Address" é um endereço único atribuído a dispositivos de rede para identificá-los em uma rede local; V
+"DNS Server" é um servidor de rede usado para traduzir nomes de domínio em endereços IP para permitir a comunicação entre dispositivos na Internet; V
+"Ping" é um utilitário de linha de comando usado para testar a conectividade de rede enviando pacotes de dados para um destino e aguardando uma resposta; V
+"Traceroute" é um utilitário de linha de comando usado para rastrear a rota que os pacotes de dados estão seguindo de um dispositivo para outro através da Internet; V
+"NAT" é a sigla em inglês para "Network Address Translation", que é uma técnica usada para mapear endereços IP privados para endereços IP públicos e vice-versa; V
+"Subnet Mask" é um número que define quais partes de um endereço IP são usadas para identificar a rede e quais partes são usadas para identificar dispositivos na rede; V
+"ARP" é a sigla em inglês para "Address Resolution Protocol", que é um protocolo usado para associar endereços IP a endereços MAC em uma rede local; V
+"SNMP" é a sigla em inglês para "Simple Network Management Protocol", que é um protocolo usado para monitorar e gerenciar dispositivos de rede, como roteadores e switches; V
+"FTP" é a sigla em inglês para "File Transfer Protocol", que é um protocolo usado para transferir arquivos entre dispositivos em uma rede; V
+"Telnet" é um protocolo de rede usado para acessar e controlar um dispositivo remotamente através da linha de comando; V
+"SSH" é a sigla em inglês para "Secure Shell", que é um protocolo de rede seguro usado para acessar e controlar um dispositivo remotamente de forma segura; V
+"Load Balancer" é um dispositivo de rede usado para distribuir o tráfego de rede entre vários servidores para melhorar o desempenho e a confiabilidade do sistema; V
+"DNS Cache" é uma memória temporária usada para armazenar consultas DNS recentes, reduzindo o tempo necessário para resolver futuras consultas de DNS; V
+"Proxy Server" é um servidor intermediário usado para encaminhar solicitações de clientes para servidores de destino na Internet, atuando como um intermediário entre o cliente e o servidor; V
+"ICMP" é a sigla em inglês para "Internet Control Message Protocol", que é um protocolo usado para fornecer informações sobre o estado da rede e diagnosticar problemas de conectividade; V
+"Computação em Nuvem" é um modelo de computação que permite o acesso sob demanda a recursos de computação, como servidores, armazenamento e redes, pela Internet; V
+"IaaS" é a sigla em inglês para "Infrastructure as a Service", que é um modelo de computação em nuvem que fornece acesso a recursos de infraestrutura, como servidores virtuais e armazenamento, sob demanda; V
+"PaaS" é a sigla em inglês para "Platform as a Service", que é um modelo de computação em nuvem que fornece uma plataforma de desenvolvimento e implantação de aplicativos sob demanda; V
+"SaaS" é a sigla em inglês para "Software as a Service", que é um modelo de computação em nuvem que fornece acesso a aplicativos de software pela Internet sob demanda; V
+"Nuvem Pública" é um modelo de computação em nuvem em que os recursos são fornecidos por um provedor de serviços de nuvem e compartilhados entre vários clientes; V
+"Nuvem Privada" é um modelo de computação em nuvem em que os recursos são dedicados a um único cliente e mantidos em uma infraestrutura de nuvem privada; V
+"Nuvem Híbrida" é um modelo de computação em nuvem que combina recursos de nuvem pública e nuvem privada para oferecer flexibilidade e escalabilidade; V
+"Elasticidade" é uma característica da computação em nuvem que permite que os recursos de computação sejam dimensionados automaticamente para cima ou para baixo conforme necessário, para atender às demandas do usuário; V
+"Escalabilidade" é uma característica da computação em nuvem que permite que os recursos de computação sejam dimensionados horizontalmente ou verticalmente para atender a picos de demanda de usuários; V
+"Multilocação" é uma característica da computação em nuvem que permite que múltiplos clientes compartilhem os mesmos recursos físicos de computação, como servidores e armazenamento, em um ambiente de nuvem; V
+"API" é a sigla em inglês para "Application Programming Interface", que é um conjunto de regras e protocolos que permite que diferentes aplicativos se comuniquem entre si e compartilhem dados e funcionalidades; V
+"Segurança" é uma consideração importante na computação em nuvem, que envolve proteger os dados do cliente contra acesso não autorizado, perda e corrupção, tanto durante o armazenamento quanto durante a transmissão pela rede; V
+"SLA" é a sigla em inglês para "Service Level Agreement", que é um contrato entre um provedor de serviços de nuvem e um cliente que define os termos e condições do serviço, incluindo níveis de desempenho e disponibilidade garantidos; V
+"Virtualização" é uma tecnologia fundamental na computação em nuvem que permite que múltiplos sistemas operacionais e aplicativos compartilhem os mesmos recursos físicos de hardware, como servidores e armazenamento; V
+"Orquestração" é o processo de automatizar a implantação, configuração e gerenciamento de recursos de computação em nuvem por meio de scripts e ferramentas de automação; V
+"Backup" é uma prática importante na computação em nuvem que envolve fazer cópias de segurança dos dados do cliente para garantir a disponibilidade e a integridade das informações em caso de falha do sistema; V
+"Criptografia" é uma técnica usada na computação em nuvem para proteger os dados do cliente contra acesso não autorizado, convertendo-os em um formato ilegível que só pode ser decifrado com uma chave de criptografia; V
+"Governança de Dados" é um conjunto de políticas e práticas que garantem que os dados do cliente sejam gerenciados de forma ética, legal e segura na computação em nuvem; V
+"Latência" é o tempo de atraso entre o envio de um pedido de dados e o recebimento da resposta, uma consideração importante na computação em nuvem que afeta o desempenho das aplicações; V
+"Interoperabilidade" é a capacidade de diferentes sistemas e aplicativos em nuvens públicas e privadas se comunicarem e trabalharem juntos de forma eficiente e transparente; V
+"SCRUM" é uma metodologia ágil de gerenciamento de projetos que enfatiza a colaboração, adaptação e entrega incremental de produtos de software; V
+"Product Owner" é o membro da equipe SCRUM responsável por representar os interesses dos stakeholders e garantir que o produto atenda às necessidades do cliente; V
+"Scrum Master" é o facilitador da equipe SCRUM, responsável por garantir que a equipe siga os princípios e práticas do SCRUM e remover impedimentos que possam atrapalhar o progresso do projeto; V
+"Sprint" é um período de tempo fixo, geralmente de duas a quatro semanas, durante o qual a equipe SCRUM realiza o trabalho necessário para entregar um incremento do produto funcional; V
+"Backlog do Produto" é uma lista de todos os requisitos, funcionalidades e melhorias desejadas para o produto, priorizadas pelo Product Owner e gerenciadas ao longo do tempo; V
+"Backlog da Sprint" é uma lista de tarefas específicas que a equipe seleciona do Backlog do Produto para trabalhar durante a Sprint atual; V
+"Incremento" é a versão funcional do produto que é entregue ao final de cada Sprint, contendo todas as funcionalidades completas e testadas implementadas até aquele ponto; V
+"Daily Scrum" é uma reunião diária de curta duração realizada pela equipe SCRUM para sincronizar o trabalho, discutir progresso, impedimentos e planos para o dia; V
+"Sprint Planning" é uma reunião realizada no início de cada Sprint, na qual a equipe SCRUM e o Product Owner colaboram para definir os objetivos da Sprint e selecionar as tarefas do Backlog da Sprint; V
+"Sprint Review" é uma reunião realizada ao final de cada Sprint, na qual a equipe SCRUM demonstra o Incremento do produto concluído e obtém feedback dos stakeholders; V
+"Sprint Retrospective" é uma reunião realizada ao final de cada Sprint, na qual a equipe SCRUM revisa seu processo de trabalho, identifica pontos fortes e áreas de melhoria, e define ações para aprimoramento futuro; V
+"Burn-down Chart" é um gráfico usado na SCRUM para visualizar o progresso da equipe em relação às tarefas planejadas para a Sprint, mostrando a quantidade de trabalho restante ao longo do tempo; V
+"Velocity" é a medida da quantidade de trabalho concluída pela equipe SCRUM em cada Sprint, geralmente expressa em pontos de história ou tarefas completadas; V
+"Estimativa de Tarefas" é o processo de atribuir pontos de história ou horas a cada tarefa no Backlog da Sprint para ajudar a equipe a planejar e priorizar o trabalho durante a Sprint Planning; V
+"Definition of Done" é uma lista de critérios que define quando uma funcionalidade ou tarefa está completa e pronta para ser entregue ao cliente, ajudando a garantir a qualidade do produto final; V
+"Time-boxing" é uma prática na SCRUM que define limites de tempo fixos para reuniões e atividades, como o Daily Scrum e o Sprint Planning, para garantir que sejam focados e eficientes; V
+"Impedimento" é qualquer obstáculo ou problema que esteja impedindo a equipe SCRUM de fazer progresso em suas tarefas durante a Sprint, e que precisa ser resolvido pelo Scrum Master; V
+"Scrum of Scrums" é uma reunião realizada em projetos de grande escala, na qual representantes de equipes SCRUM individuais discutem progresso, dependências e coordenação entre as equipes; V
+"Release Planning" é o processo de planejar e programar as entregas de incrementos do produto ao longo do tempo, com base no Backlog do Produto e na velocidade da equipe SCRUM; V
+"Epic" é uma unidade de trabalho no Backlog do Produto que representa uma grande funcionalidade ou conjunto de funcionalidades que podem ser divididas em tarefas menores para serem executadas em Sprints individuais; V
+"Kanban" é uma abordagem visual para gerenciar o trabalho em progresso, usando quadros e cartões para representar tarefas e fluxos de trabalho em um processo de desenvolvimento ágil; V
+"Definition of Ready" é uma lista de critérios que define quando um item do Backlog do Produto está pronto para ser selecionado para uma Sprint durante o Sprint Planning, garantindo que seja compreendido e viável para implementação; V
+"Planning Poker" é uma técnica usada na SCRUM para estimar o esforço necessário para concluir uma tarefa, onde os membros da equipe atribuem pontos de história a uma tarefa após discussão e consenso; V
+"Lead Time" é o tempo decorrido entre o momento em que uma tarefa é solicitada e o momento em que é concluída, uma métrica importante para medir a eficiência do processo de desenvolvimento; V
+"Cycle Time" é o tempo decorrido entre o início e a conclusão de uma tarefa específica, uma métrica importante para medir a produtividade da equipe SCRUM; V
+"Sprint Goal" é uma declaração concisa que descreve o objetivo principal da Sprint e orienta a equipe SCRUM na seleção de tarefas durante o Sprint Planning; V
+"Technical Debt" é uma metáfora usada na SCRUM para descrever o custo futuro de resolver problemas técnicos ou fazer ajustes em um código mal projetado ou implementado; V
+"Refinement" é o processo contínuo de revisar e atualizar o Backlog do Produto, adicionando detalhes e refinando as estimativas de tarefas à medida que novas informações se tornam disponíveis; V
+"Product Increment" é a soma de todas as funcionalidades implementadas e testadas durante uma Sprint, que é demonstrada ao Product Owner ao final da Sprint Review; V
+"Daily Stand-up" é outro nome comum para a reunião diária da SCRUM, onde os membros da equipe SCRUM compartilham atualizações de status e discutem planos para o dia de trabalho; V
+"Continuous Integration" é uma prática na SCRUM que envolve a integração frequente de código por membros da equipe em um repositório compartilhado, seguida de testes automáticos para detectar problemas de integração o mais rápido possível; V
+"Sprint Burndown Chart" é um gráfico usado na SCRUM para visualizar o progresso da equipe em relação ao trabalho planejado para a Sprint, mostrando a quantidade de trabalho restante ao longo do tempo; V
+"Scrum Board" é uma ferramenta visual usada na SCRUM para acompanhar o progresso das tarefas durante uma Sprint, geralmente dividida em colunas que representam diferentes estágios de conclusão; V
+"Increment Review" é uma reunião realizada ao final de cada Sprint, na qual a equipe SCRUM revisa o Incremento do produto concluído e identifica possíveis melhorias para futuras Sprints; V
+"Increment Retrospective" é uma reunião realizada ao final de cada Sprint, na qual a equipe SCRUM reflete sobre seu processo de trabalho e identifica oportunidades de melhoria para a próxima Sprint; V
+"Release Burn-up Chart" é um gráfico usado na SCRUM para visualizar o progresso da equipe em relação ao trabalho planejado para uma série de Sprints, mostrando a quantidade de trabalho concluída ao longo do tempo; V
+"Technical Spike" é uma tarefa de investigação técnica realizada pela equipe SCRUM para avaliar a viabilidade ou complexidade de uma funcionalidade antes de ser implementada em uma Sprint; V
+"WAN" é a sigla em inglês para "Wide Area Network", que é uma rede de computadores que abrange uma grande área geográfica, conectando dispositivos em diferentes locais geográficos; V
+"LAN" é a sigla em inglês para "Local Area Network", que é uma rede de computadores que abrange uma área geográfica limitada, como um escritório, edifício ou campus universitário; V
+"MAN" é a sigla em inglês para "Metropolitan Area Network", que é uma rede de computadores que abrange uma área metropolitana, conectando dispositivos em uma cidade ou região urbana; V
+"Roteador" é um dispositivo de rede usado para encaminhar dados entre redes diferentes e determinar a melhor rota para os pacotes de dados em uma WAN ou MAN; V
+"Topologia de Rede" refere-se ao layout físico ou lógico de uma rede de computadores, incluindo como os dispositivos estão conectados entre si e organizados na rede; V
+"Protocolo TCP/IP" é o conjunto de protocolos de comunicação usado para interconectar dispositivos em uma rede de computadores, incluindo a Internet, permitindo a comunicação eficiente e confiável entre eles; V
+"Fibra Óptica" é um meio de transmissão de dados que utiliza cabos de fibra de vidro ou plástico para transmitir sinais de luz, oferecendo alta largura de banda e baixa latência em redes WAN e MAN; V
+"Ethernet" é um padrão de tecnologia de rede com fio amplamente utilizado em LANs para conectar dispositivos, oferecendo velocidades de transmissão de dados rápidas e confiáveis; V
+"VPN" é a sigla em inglês para "Virtual Private Network", que é uma tecnologia de rede que cria uma conexão segura e criptografada sobre uma rede pública, como a Internet, permitindo que os usuários acessem recursos de rede de forma remota; V
+"DSL" é a sigla em inglês para "Digital Subscriber Line", que é uma tecnologia de transmissão de dados que utiliza linhas telefônicas tradicionais para fornecer conexões de Internet de banda larga em redes WAN; V
+"Modem" é um dispositivo usado para modular e demodular sinais de dados, permitindo a transmissão de dados sobre linhas de comunicação, como linhas telefônicas e cabos coaxiais; V
+"TCP" é a sigla em inglês para "Transmission Control Protocol", que é um protocolo de comunicação confiável usado para estabelecer e manter conexões de rede entre dispositivos em uma WAN, MAN ou LAN; V
+"IP" é a sigla em inglês para "Internet Protocol", que é um protocolo de rede usado para identificar e rotear pacotes de dados na Internet e em redes locais; V
+"Subnetting" é o processo de dividir uma rede IP em sub-redes menores para melhorar o desempenho e a segurança, permitindo o gerenciamento eficiente de endereços IP; V
+"Gateway" é um dispositivo de rede usado para conectar redes diferentes e rotear o tráfego entre elas, como um roteador em uma rede WAN ou MAN; V
+"Firewall" é um dispositivo ou software que controla o tráfego de rede e protege uma rede contra ameaças externas, como hackers e malware, em redes WAN, MAN e LAN; V
+"Latência" é o tempo de atraso entre o envio de um pedido de dados e o recebimento da resposta, uma consideração importante em redes WAN e MAN que afeta o desempenho das aplicações; V
+"Banda Larga" é uma conexão de Internet de alta velocidade que oferece uma largura de banda maior do que as conexões tradicionais, geralmente utilizada em redes WAN e MAN para transferência rápida de dados; V
+"Frame Relay" é um serviço de rede de pacotes usado em redes WAN para transmitir dados em alta velocidade, fornecendo uma conexão permanente entre locais geograficamente dispersos; V
+"Wi-Fi" é uma tecnologia de rede sem fio que permite a conexão de dispositivos à Internet e entre si por meio de ondas de rádio; V
+"Bluetooth" é uma tecnologia de comunicação sem fio de curto alcance usada para conectar dispositivos, como smartphones, fones de ouvido e alto-falantes, em uma rede pessoal; V
+"802.11" é um conjunto de padrões desenvolvidos pelo IEEE para redes sem fio, incluindo diferentes variações, como 802.11b, 802.11g e 802.11n; V
+"SSID" é o nome da rede sem fio que os dispositivos usam para se identificar e se conectar a uma rede Wi-Fi específica; V
+"Criptografia WPA2" é um protocolo de segurança usado em redes Wi-Fi para proteger a comunicação entre dispositivos por meio de criptografia de dados; V
+"Access Point" é um dispositivo de rede sem fio que permite que dispositivos se conectem a uma rede Wi-Fi, fornecendo acesso à Internet e outros recursos de rede; V
+"Roteador sem fio" é um dispositivo que combina as funções de um roteador e de um access point para fornecer conectividade à Internet sem fio em uma rede doméstica ou empresarial; V
+"Repetidor Wi-Fi" é um dispositivo usado para estender o alcance de uma rede sem fio, capturando e retransmitindo os sinais Wi-Fi em áreas com sinal fraco; V
+"Canal Wi-Fi" é uma faixa de frequência de rádio usada para transmitir dados em uma rede sem fio, com canais sobrepostos que podem causar interferência se não forem configurados corretamente; V
+"Latência" é o tempo de atraso entre o envio de um pedido de dados e o recebimento da resposta, uma consideração importante em redes sem fio que afeta o desempenho das aplicações; V
+"Cabeamento óptico" é um tipo de infraestrutura de rede que utiliza cabos de fibra óptica para transmitir dados por meio de pulsos de luz, oferecendo alta largura de banda e baixa latência; V
+"Fibra óptica monomodo" é um tipo de cabo de fibra óptica que utiliza um único núcleo de fibra para transmitir dados, oferecendo alta largura de banda e menor atenuação de sinal em longas distâncias; V
+"Fibra óptica multimodo" é um tipo de cabo de fibra óptica que utiliza múltiplos núcleos de fibra para transmitir dados, oferecendo velocidades de transmissão mais rápidas em curtas distâncias; V
+"Conector LC" é um tipo de conector usado em cabos de fibra óptica para conectar dispositivos de rede, como switches e transceptores, oferecendo uma conexão segura e confiável; V
+"Atenuação de sinal" é a perda de intensidade do sinal óptico ao longo do comprimento do cabo de fibra óptica, devido a fatores como absorção e dispersão de luz; V
+"Transceptor óptico" é um dispositivo usado em redes de fibra óptica para converter sinais elétricos em sinais ópticos e vice-versa, permitindo a transmissão de dados por meio de cabos de fibra óptica; V
+"ONT" é a sigla em inglês para "Optical Network Terminal", que é um dispositivo usado em redes de fibra óptica para fornecer serviços de Internet, telefone e TV para assinantes residenciais e empresariais; V
+"Backbone de fibra óptica" é uma rede de fibra óptica de alta capacidade usada para interconectar dispositivos de rede em diferentes locais geográficos, como edifícios e campus universitários; V
+"Terminação de fibra óptica" é o processo de conectar e alinhar os extremos dos cabos de fibra óptica para garantir uma transmissão eficiente e confiável de dados entre dispositivos de rede; V
+"O projeto de redes de computadores envolve o planejamento, design e implementação de sistemas de comunicação que conectam dispositivos de computação para facilitar a troca de dados e recursos; V
+"Topologia de rede" refere-se ao layout físico ou lógico da rede, incluindo como os dispositivos estão conectados entre si e organizados na rede; V
+"Análise de requisitos" é a fase inicial do projeto de redes de computadores, na qual os objetivos e necessidades do cliente são identificados e documentados; V
+"Diagrama de rede" é uma representação visual da topologia da rede, mostrando os dispositivos de rede e suas interconexões; V
+"Equipamentos de rede" incluem dispositivos como roteadores, switches, firewalls e access points, que são usados para criar e gerenciar redes de computadores; V
+"Endereçamento IP" é um aspecto importante do projeto de redes de computadores, envolvendo a atribuição de endereços únicos a dispositivos na rede para facilitar a comunicação; V
+"Cabeamento estruturado" é um sistema de cabeamento padronizado usado em redes de computadores para fornecer conectividade confiável e flexível entre dispositivos de rede; V
+"Segmentação de rede" é o processo de dividir uma rede em segmentos menores para melhorar o desempenho e a segurança, reduzindo o tráfego de rede e isolando problemas; V
+"Redundância de rede" é a prática de implementar caminhos de comunicação alternativos e equipamentos duplicados para garantir a disponibilidade e a confiabilidade da rede; V
+"QoS" é a sigla em inglês para "Quality of Service", que se refere à capacidade de uma rede de fornecer diferentes níveis de desempenho para diferentes tipos de tráfego de dados; V
+"Política de Segurança" é um conjunto de regras e procedimentos projetados para proteger os recursos de rede contra ameaças de segurança, como hackers e malware; V
+"Documentação de rede" é a criação e manutenção de registros detalhados sobre a configuração, layout e operação da rede, incluindo diagramas de rede, listas de equipamentos e políticas de segurança; V
+"Testes de aceitação" são realizados durante a fase final do projeto de redes de computadores para garantir que a rede atenda aos requisitos do cliente e funcione conforme o esperado; V
+"Atualização de software" é uma consideração importante no projeto de redes de computadores, envolvendo a instalação regular de patches e atualizações de segurança para proteger contra vulnerabilidades conhecidas; V
+"Balanceamento de carga" é a distribuição equitativa do tráfego de rede entre vários dispositivos ou caminhos de comunicação para evitar congestionamentos e maximizar o desempenho da rede; V
+"Virtualização de rede" é uma técnica usada no projeto de redes de computadores para criar redes lógicas independentes em cima de uma infraestrutura física compartilhada, oferecendo flexibilidade e eficiência de recursos; V
+"Auditoria de segurança" é uma atividade realizada regularmente no projeto de redes de computadores para avaliar e verificar a eficácia das medidas de segurança existentes e identificar possíveis vulnerabilidades; V
+"Monitoramento de rede" é uma prática contínua no projeto de redes de computadores, envolvendo a supervisão e análise do tráfego de rede para identificar problemas de desempenho, segurança e disponibilidade; V
+"Backup e recuperação" é uma consideração crítica no projeto de redes de computadores, envolvendo a implementação de políticas e procedimentos para proteger e restaurar dados em caso de perda ou corrupção; V
+"Documentação de procedimentos operacionais" é a criação de instruções detalhadas e orientações para ajudar na operação, manutenção e resolução de problemas na rede, garantindo uma administração eficiente e consistente. V
+Uma LAN (Local Area Network) é uma rede de computadores que abrange uma área geográfica pequena, como um escritório ou uma casa; V
+Uma WAN (Wide Area Network) é uma rede de computadores que abrange uma área geográfica extensa, geralmente um país ou continente; V
+O protocolo TCP/IP é o conjunto de protocolos de comunicação padrão da Internet e é composto por quatro camadas: aplicação, transporte, internet e enlace; V
+Um endereço IP é um identificador único atribuído a cada dispositivo em uma rede IP e é composto por quatro números separados por pontos, por exemplo, 192.168.1.1; V
+O protocolo HTTP (Hypertext Transfer Protocol) é utilizado para transferir páginas da web de servidores para navegadores da web; V
+O protocolo FTP (File Transfer Protocol) é utilizado para transferir arquivos entre um cliente e um servidor na Internet; V
+O protocolo SMTP (Simple Mail Transfer Protocol) é utilizado para enviar e receber e-mails na Internet; V
+O protocolo DHCP (Dynamic Host Configuration Protocol) é utilizado para atribuir automaticamente endereços IP e outras configurações de rede a dispositivos em uma rede IP; V
+O protocolo DNS (Domain Name System) é utilizado para traduzir nomes de domínio em endereços IP; V
+Um roteador é um dispositivo de rede que encaminha pacotes de dados entre redes diferentes, como uma LAN e a Internet; V
+Um switch é um dispositivo de rede que conecta vários dispositivos em uma rede local e encaminha pacotes de dados apenas para o destinatário correto; V
+Um modem é um dispositivo de rede que converte sinais digitais em sinais analógicos para transmissão sobre uma linha telefônica ou cabo; V
+Um firewall é um sistema de segurança de rede que monitora e controla o tráfego de entrada e saída da rede, com base em regras de segurança predefinidas; V
+Um endereço MAC (Media Access Control) é um identificador único atribuído a cada dispositivo de rede e é gravado na placa de rede do dispositivo; V
+O protocolo ARP (Address Resolution Protocol) é utilizado para mapear endereços IP em endereços MAC em uma rede local; V
+Um gateway é um dispositivo ou software que conecta redes diferentes e facilita a comunicação entre elas; V
+O protocolo ICMP (Internet Control Message Protocol) é utilizado para enviar mensagens de controle e erro na Internet; V
+O protocolo HTTPS (Hypertext Transfer Protocol Secure) é uma versão segura do HTTP que utiliza criptografia para proteger os dados durante a transferência; V
+Um cabo de par trançado é um tipo de cabo de rede que consiste em pares de fios entrelaçados e é amplamente utilizado em redes Ethernet; V
+Um protocolo de roteamento é um conjunto de regras utilizadas por roteadores para determinar a melhor rota para encaminhar pacotes de dados através de uma rede; V
+Um protocolo de comunicação é um conjunto de regras que definem como os dispositivos em uma rede se comunicam entre si; V
+O protocolo UDP (User Datagram Protocol) é um protocolo de transporte que fornece comunicação não confiável e sem conexão entre dispositivos em uma rede; V
+O protocolo TCP (Transmission Control Protocol) é um protocolo de transporte que fornece comunicação confiável e orientada à conexão entre dispositivos em uma rede; V
+Um endereço IPv6 é um identificador único de 128 bits atribuído a dispositivos em uma rede IPv6 e é representado em hexadecimal, por exemplo, 2001:0db8:85a3:0000:0000:8a2e:0370:7334; V
+Um roteador sem fio é um dispositivo de rede que permite a conexão de dispositivos sem fio a uma rede, utilizando o padrão Wi-Fi; V
+O padrão IEEE 802.11 é utilizado para redes sem fio e é comumente conhecido como Wi-Fi; V
+O endereço de broadcast é um endereço especial usado para enviar dados para todos os dispositivos em uma rede local; V
+O endereço de loopback (127.0.0.1) é um endereço especial utilizado para testar a comunicação entre o próprio dispositivo e o software em execução nele; V
+O protocolo ICMP (Internet Control Message Protocol) é utilizado para diagnosticar problemas de rede, como testar a conectividade entre dispositivos; V
+Um servidor DHCP (Dynamic Host Configuration Protocol) é um servidor que fornece configurações de rede, como endereços IP, a dispositivos em uma rede local de forma dinâmica; V
+Um servidor DNS (Domain Name System) é um servidor que traduz nomes de domínio em endereços IP para permitir a comunicação entre dispositivos na Internet; V
+O protocolo SSH (Secure Shell) é um protocolo de rede utilizado para comunicações seguras e autenticadas, especialmente para acesso remoto a servidores; V
+O NAT (Network Address Translation) é uma técnica utilizada para mapear múltiplos endereços IP privados em um único endereço IP público, permitindo que vários dispositivos em uma rede local compartilhem uma única conexão com a Internet; V
+O DNS reverso é uma técnica que traduz endereços IP em nomes de domínio, ao contrário do DNS convencional que traduz nomes de domínio em endereços IP; V
+Um cabo de fibra óptica é um tipo de cabo de rede que utiliza pulsos de luz para transmitir dados em vez de sinais elétricos, oferecendo maior largura de banda e alcance em comparação com cabos de cobre; V
+O ICMPv6 (Internet Control Message Protocol version 6) é uma extensão do ICMP projetada para funcionar com o protocolo IPv6 e inclui novos tipos de mensagens, como mensagens de vizinhança; V
+O NAT estático é uma forma de NAT em que um endereço IP público específico é atribuído a um dispositivo privado, garantindo que sempre haja uma correspondência entre o endereço privado e o público; V
+O proxy é um servidor intermediário que atua como um intermediário entre os clientes e os servidores na Internet, realizando solicitações em nome dos clientes; V
+O endereço MAC de broadcast é FF-FF-FF-FF-FF-FF; V
+O endereço IP reservado 127.0.0.1 é associado ao loopback, permitindo que um dispositivo se comunique consigo mesmo na mesma máquina; V
+Um endereço IP da classe A possui 8 bits para a identificação da rede; V
+O intervalo de endereços IP válidos para a classe B é de 128.0.0.0 a 191.255.255.255; V
+Um endereço IP da classe C utiliza 24 bits para a identificação da rede; V
+Um endereço IP da classe D é utilizado para multicast; V
+O intervalo de endereços IP válidos para a classe D é de 224.0.0.0 a 239.255.255.255; V
+As classes de endereçamento IP reservadas para uso privado são A (10.0.0.0 a 10.255.255.255), B (172.16.0.0 a 172.31.255.255) e C (192.168.0.0 a 192.168.255.255); V
+Um endereço IP da classe E é reservado para uso futuro e experimentação; V
+Um endereço IP da classe B utiliza 16 bits para a identificação da rede; V
+O primeiro octeto de um endereço IP da classe D está entre 224 e 239; V
+Um endereço IP da classe A utiliza 8 bits para a identificação da rede; V
+O número de bits utilizados para a identificação da rede e do host diferencia uma classe de endereçamento IP da outra; V
+As classes A e B permitem uma grande quantidade de hosts por rede; V
+O primeiro octeto de um endereço IP da classe B está entre 128 e 191; V
+Um endereço IP da classe C pode ser utilizado para 2^21 redes distintas; V
+A máscara de sub-rede padrão para uma rede da classe B é 255.255.0.0; V
+Um endereço IP da classe C utiliza 8 bits para a identificação do host; V
+O primeiro octeto de um endereço IP da classe A está entre 1 e 126; V
+Os intervalos de endereços IP reservados para uso privado em uma rede classe C são de 192.168.0.0 a 192.168.255.255; V
+Um endereço IP da classe B utiliza 16 bits para a identificação do host; V
+Um endereço IP da classe E é utilizado para fins de pesquisa e experimentação, e não deve ser roteado em redes públicas; V
+Um switch é um dispositivo de rede utilizado para interconectar dispositivos em uma rede local e encaminhar pacotes de dados apenas para o destinatário correto; V
+Um hub é um dispositivo de rede que simplesmente repete os sinais recebidos de um dispositivo para todos os outros dispositivos conectados a ele, sem levar em consideração o destinatário correto; F
+Uma placa de rede (NIC) é um componente de hardware que permite que um computador se conecte a uma rede e comunique-se com outros dispositivos nessa rede; V
+Um access point é um dispositivo de rede sem fio que permite que dispositivos se conectem a uma rede sem fio; V
+Um repetidor é um dispositivo de rede utilizado para estender o alcance de uma rede sem fio, amplificando os sinais sem fio recebidos e transmitidos; V
+Um servidor de impressão é um dispositivo de rede que permite que várias impressoras sejam compartilhadas em uma rede local; V
+Um servidor de arquivos é um dispositivo de rede que armazena e compartilha arquivos com outros dispositivos na rede; V
+Um patch panel é um painel de conexão utilizado em redes de computadores para organizar e facilitar a conexão de cabos de rede; V
+Um cabo de rede é um meio físico de conexão que transporta dados entre dispositivos de rede, como computadores, switches e roteadores; V
+Uma antena é um componente utilizado em redes sem fio para transmitir e receber sinais de rádio entre dispositivos; V
+Um servidor de e-mail é um dispositivo de rede que armazena, envia e recebe e-mails na Internet; V
+Um servidor proxy é um servidor que atua como intermediário entre os clientes e os servidores na Internet, realizando solicitações em nome dos clientes; V
+A autenticação de dois fatores requer apenas uma forma de autenticação para validar a identidade do usuário; F
+Um ataque de força bruta é uma tentativa de descobrir uma senha ao tentar várias combinações de caracteres; V
+O protocolo HTTPS utiliza criptografia para proteger os dados transmitidos entre um cliente e um servidor na web; V
+Um firewall é um sistema de segurança que monitora e controla o tráfego de rede, permitindo ou bloqueando determinadas comunicações com base em regras de segurança; V
+A criptografia de dados é o processo de codificação de informações para que somente pessoas autorizadas possam acessá-las; V
+Um ataque de phishing é uma tentativa de enganar os usuários para que revelem informações confidenciais, como senhas e números de cartão de crédito, por meio de e-mails ou sites fraudulentos; V
+Um ataque de negação de serviço (DDoS) tem como objetivo sobrecarregar um servidor ou rede com uma grande quantidade de tráfego malicioso, tornando-o inacessível para usuários legítimos; V
+O princípio do menor privilégio estabelece que os usuários devem ter apenas as permissões necessárias para realizar suas tarefas, reduzindo assim o risco de comprometimento da segurança; V
+O ransomware é um tipo de malware que criptografa os arquivos de um sistema e exige um resgate para desbloqueá-los; V
+Um certificado digital é um arquivo eletrônico que é utilizado para associar uma chave pública a uma entidade, como um indivíduo ou uma organização, e é amplamente utilizado para autenticação e criptografia; V
+Um ataque de engenharia social é uma tentativa de manipular pessoas para que revelem informações confidenciais ou realizem ações prejudiciais; V
+A criptografia assimétrica utiliza duas chaves diferentes, uma pública e uma privada, para criptografar e descriptografar dados; V
+Um antivírus é um programa de software projetado para detectar, prevenir e remover malware de um sistema de computador; V
+A segurança física é uma medida de proteção que visa proteger os recursos físicos de uma organização, como servidores e instalações, contra acesso não autorizado; V
+O princípio da redundância estabelece que os dados devem ser duplicados e armazenados em locais diferentes para garantir sua disponibilidade em caso de falha de hardware ou desastre; V
+Uma VPN (Virtual Private Network) é uma rede privada virtual que permite que usuários remotos se conectem a uma rede privada por meio de uma conexão segura pela Internet; V
+O protocolo SSL (Secure Sockets Layer) é um protocolo de segurança que fornece comunicações seguras na Internet, especialmente para transações online; V
+O controle de acesso baseado em função (RBAC) é um modelo de segurança que atribui permissões aos usuários com base em suas funções dentro de uma organização; V
+A conformidade com as políticas de segurança é o cumprimento das diretrizes e procedimentos estabelecidos para proteger os recursos de informação de uma organização; V
+A criptografia de ponta a ponta protege os dados durante toda a comunicação, desde o remetente até o destinatário, garantindo que apenas os participantes autorizados possam acessá-los; V
+A porta lógica AND retorna verdadeiro apenas se ambas as entradas forem verdadeiras; V
+A porta lógica OR retorna verdadeiro se pelo menos uma das entradas for verdadeira; V
+A porta lógica NOT inverte o valor da entrada; V
+A porta lógica XOR retorna verdadeiro se as entradas forem diferentes; V
+Uma porta NAND é uma combinação de uma porta AND seguida de uma porta NOT; V
+Uma porta NOR é uma combinação de uma porta OR seguida de uma porta NOT; V
+Uma porta XNOR retorna verdadeiro se as entradas forem iguais; V
+A função de uma porta lógica é realizar operações matemáticas complexas; F
+As portas lógicas são frequentemente utilizadas na construção de circuitos digitais e computadores; V
+As portas lógicas são apenas componentes físicos e não possuem aplicações em software; F
+As portas lógicas podem ser combinadas para criar circuitos mais complexos, como somadores e multiplexadores; V
+As portas lógicas são geralmente construídas com transistores ou outros dispositivos semicondutores; V
+O funcionamento de uma porta lógica é determinado pela tabela verdade que descreve todas as possíveis combinações de entradas e saídas; V

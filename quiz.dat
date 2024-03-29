@@ -1155,3 +1155,63 @@ As portas lógicas são apenas componentes físicos e não possuem aplicações 
 As portas lógicas podem ser combinadas para criar circuitos mais complexos, como somadores e multiplexadores; V
 As portas lógicas são geralmente construídas com transistores ou outros dispositivos semicondutores; V
 O funcionamento de uma porta lógica é determinado pela tabela verdade que descreve todas as possíveis combinações de entradas e saídas; V
+"SNMP" é a sigla em inglês para "Simple Network Management Protocol", um protocolo amplamente utilizado para monitoramento e gerenciamento de dispositivos de rede; V
+"Tráfego de rede" refere-se ao fluxo de dados que passa por uma rede de computadores, incluindo pacotes de dados, mensagens de controle e outros tipos de comunicação; V
+"Monitoramento de desempenho" é o processo de coleta e análise de dados para avaliar o desempenho de uma rede de computadores, incluindo latência, largura de banda e taxa de erro; V
+"Ferramentas de monitoramento de rede" incluem software e hardware projetados para coletar, analisar e relatar dados sobre o tráfego de rede e o status dos dispositivos de rede; V
+"Análise de tráfego" é o processo de examinar o tráfego de rede para identificar padrões, anomalias e problemas de desempenho, usando ferramentas como captura de pacotes e análise de protocolo; V
+"Captura de pacotes" é o processo de interceptar e registrar pacotes de dados que passam por uma rede de computadores, geralmente usando ferramentas como Wireshark ou tcpdump; V
+"Análise de protocolo" é o processo de examinar os cabeçalhos de pacotes de dados para identificar os protocolos de comunicação usados e entender como os dispositivos de rede estão interagindo; V
+"Alertas de rede" são notificações automáticas geradas por ferramentas de monitoramento de rede para informar os administradores sobre problemas ou eventos importantes na rede; V
+"Threshold" é um limite predefinido usado em ferramentas de monitoramento de rede para acionar alertas quando determinadas métricas de desempenho excedem valores específicos; V
+"Mapa de rede" é uma representação visual da topologia da rede, mostrando os dispositivos de rede e suas conexões, geralmente criados usando ferramentas de mapeamento de rede; V
+"Análise de segurança" é o processo de identificação e mitigação de vulnerabilidades de segurança em uma rede de computadores, incluindo detecção de intrusões, varreduras de vulnerabilidades e análise de logs de segurança; V
+"Monitoramento de largura de banda" é o acompanhamento do uso da largura de banda da rede para identificar gargalos de desempenho, congestionamentos e tendências de uso; V
+"Monitoramento de integridade" é o acompanhamento do status e da disponibilidade dos dispositivos de rede para garantir que eles estejam operando corretamente e sem falhas; V
+"Monitoramento de serviço" é o acompanhamento do desempenho e da disponibilidade dos serviços de rede, como servidores de arquivos, serviços web e bancos de dados, para garantir que eles estejam funcionando conforme o esperado; V
+"Análise de tendências" é o processo de identificação e análise de padrões de comportamento ao longo do tempo em uma rede de computadores, incluindo tendências de tráfego, uso de recursos e problemas de desempenho recorrentes; V
+"Monitoramento de dispositivos móveis" é o acompanhamento do tráfego e do desempenho de dispositivos móveis conectados à rede, como smartphones, tablets e laptops, para garantir uma experiência de usuário consistente e segura; V
+"Monitoramento de virtualização" é o acompanhamento do desempenho e da utilização de recursos em ambientes virtualizados, como servidores virtuais e máquinas virtuais, para garantir uma alocação eficiente de recursos e evitar sobrecargas; V
+"Monitoramento de DNS" é o acompanhamento do funcionamento do serviço de Sistema de Nomes de Domínio (DNS) para garantir resoluções rápidas e precisas de nomes de domínio em endereços IP; V
+"Monitoramento de VoIP" é o acompanhamento do tráfego e do desempenho de serviços de Voz sobre IP (VoIP) para garantir qualidade de chamada e disponibilidade do serviço de telefonia pela Internet; V
+"Monitoramento de segurança" é o acompanhamento contínuo de eventos e atividades de segurança na rede, incluindo tentativas de acesso não autorizado, malware e anomalias de tráfego, para proteger contra ameaças cibernéticas e violações de segurança. V
+O algoritmo de ordenação 'Bubble Sort' possui complexidade de tempo O(n²) no pior caso."; V
+"A álgebra booleana é amplamente utilizada em computação para representar e manipular valores lógicos, com operadores como AND, OR e NOT."; V
+"A função exponencial y = e^x, onde e é a constante de Euler, é comumente usada em algoritmos de otimização e modelagem matemática."; V
+"A análise de complexidade de algoritmos ajuda a entender como o desempenho de um algoritmo muda à medida que o tamanho da entrada aumenta."; V
+"O teorema fundamental da álgebra afirma que qualquer polinômio não constante tem pelo menos uma raiz complexa."; V
+"A função logarítmica é a inversa da função exponencial e é frequentemente usada em computação para representar crescimento logarítmico."; V
+"A geometria analítica usa conceitos da álgebra para estudar formas geométricas por meio de coordenadas."; V
+"O teorema de Pitágoras é amplamente aplicado em computação para calcular distâncias e resolver problemas geométricos."; V
+"A teoria dos conjuntos é uma área fundamental da matemática que estuda coleções de objetos, sendo amplamente utilizada em lógica e computação."; V
+"A matemática discreta é o ramo da matemática que lida com estruturas matemáticas discretas, como conjuntos, grafos e teoria dos números."; V
+"O algoritmo de busca binária é mais eficiente do que a busca linear para encontrar um elemento em uma lista ordenada, com uma complexidade de tempo de O(log n)."; V
+"A matriz identidade é uma matriz quadrada com todos os elementos diagonais iguais a 1 e é frequentemente usada em computação para operações de matriz."; V
+"A série de Fibonacci, onde cada número é a soma dos dois anteriores, tem várias aplicações em computação, como em algoritmos de recursão e em modelagem de fenômenos naturais."; V
+"A integral definida é uma ferramenta matemática usada para calcular a área sob uma curva e é aplicada em algoritmos de análise numérica."; V
+"A teoria dos grafos estuda grafos, que são estruturas compostas por vértices e arestas, e é amplamente utilizada em algoritmos de redes e otimização."; V
+"A álgebra linear é fundamental para várias áreas da computação, incluindo gráficos 3D, processamento de imagens e aprendizado de máquina."; V
+"O método de Newton-Raphson é um algoritmo iterativo usado para encontrar raízes de equações não lineares e é aplicado em problemas de otimização e modelagem."; V
+"A teoria da probabilidade é usada em computação para modelar a incerteza e o risco em algoritmos de inteligência artificial, análise de dados e segurança da informação."; V
+"A combinação de permutação é uma técnica de contagem usada para calcular o número de maneiras de escolher e organizar elementos de um conjunto e é aplicada em problemas de combinação e arranjo."; V
+"A transformada de Fourier é uma ferramenta matemática usada para decompor sinais em componentes de frequência e é aplicada em processamento de sinais, compressão de dados e processamento de imagens."; V
+"O algoritmo de ordenação 'Bubble Sort' possui complexidade de tempo O(n²) no pior caso."; F
+"A álgebra booleana é pouco utilizada em computação para representar e manipular valores lógicos, com operadores como AND, OR e NOT."; F
+"A função exponencial y = e^x, onde e é a constante de Euler, é raramente usada em algoritmos de otimização e modelagem matemática."; F
+"A análise de complexidade de algoritmos não ajuda a entender como o desempenho de um algoritmo muda à medida que o tamanho da entrada aumenta."; F
+"O teorema fundamental da álgebra afirma que qualquer polinômio não constante tem várias raízes complexas."; F
+"A função logarítmica é uma função linear e é raramente usada em computação para representar crescimento logarítmico."; F
+"A geometria analítica não usa conceitos da álgebra para estudar formas geométricas por meio de coordenadas."; F
+"O teorema de Pitágoras é pouco aplicado em computação para calcular distâncias e resolver problemas geométricos."; F
+"A teoria dos conjuntos é uma área secundária da matemática que estuda coleções de objetos e é raramente utilizada em lógica e computação."; F
+"A matemática discreta é o ramo da matemática que lida com estruturas matemáticas contínuas, como conjuntos, grafos e teoria dos números."; F
+"O algoritmo de busca binária é menos eficiente do que a busca linear para encontrar um elemento em uma lista ordenada, com uma complexidade de tempo de O(n)."; F
+"A matriz identidade é uma matriz quadrada com todos os elementos diagonais iguais a 0 e é raramente usada em computação para operações de matriz."; F
+"A série de Fibonacci, onde cada número é a soma dos dois anteriores, não tem aplicações em computação, exceto em problemas de matemática pura."; F
+"A integral definida é uma ferramenta matemática usada para calcular a área sob uma curva e é pouco aplicada em algoritmos de análise numérica."; F
+"A teoria dos grafos não estuda grafos, que são estruturas compostas por vértices e arestas, e é pouco utilizada em algoritmos de redes e otimização."; F
+"A álgebra linear não é fundamental para várias áreas da computação, incluindo gráficos 3D, processamento de imagens e aprendizado de máquina."; F
+"O método de Newton-Raphson é um algoritmo iterativo pouco usado para encontrar raízes de equações não lineares e é pouco aplicado em problemas de otimização e modelagem."; F
+"A teoria da probabilidade não é usada em computação para modelar a incerteza e o risco em algoritmos de inteligência artificial, análise de dados e segurança da informação."; F
+"A combinação de permutação não é uma técnica de contagem usada para calcular o número de maneiras de escolher e organizar elementos de um conjunto e não é aplicada em problemas de combinação e arranjo."; F
+"A transformada de Fourier é uma ferramenta matemática pouco usada para decompor sinais em componentes de frequência e é pouco aplicada em processamento de sinais, compressão de dados e processamento de imagens."; F

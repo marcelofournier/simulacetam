@@ -8,9 +8,10 @@
           CENTRO DE EDUCAÇÃO TECNOLÓGICA DO AMAZONAS
               IBC - INSTITUTO BENJAMIN CONSTANT
                 LABORATÓRIO DE INFORMÁTICA 11
-                
+                PROJETO DE PESQUISA E EXTENSÃO
+
 -------------------------------------------------------------------
-Projeto: Gerador de simulados de questões sobre tecnologia+
+Projeto: Gerador de simulados para estudos de questões sobre tecnologia+
 Marcelo Fournier - prof. Orientador
 
 OBJETIVOS DO PROJETO:
@@ -28,23 +29,28 @@ projeto para chamar de seu;
 disciplinas oferecidas no CETAM no formato simulados de provas, com questões V/F.
 
 Do ponto de vista técnico há diversas oportunidades de melhorias para este projeto
-como em questões como o uso de um gerenciador de banco de dados, uso de orientação a 
-objeto em python, dentre outras. No entanto, acreditamos que nosso objetivo foi 
-alcançado.
+como: o uso de um gerenciador de banco de dados, uso de orientação a objeto em
+python, dentre outras. No entanto, acreditamos que nosso objetivo foi alcançado.
+
 
 COMO FUNCIONA:
 ==================================================================================
-Basicamente temos um banco de questões sobre tecnologia. Essas questões estão 
-armazenadas num arquivo texto.txt simples onde cada questão é adicionada numa nova
-linha no forma a seguir:
+Basicamente temos um banco de questões sobre tecnologia e outros assuntos de 
+interesse dos alunos. Essas questões estão armazenadas em arquivos textos comuns.
 
-        "A capital de Manaus é o Amazonas", F 
+Estrutura:
+        Arquivo principal: simulado.py
+        Como executar: Na linha de terminal, digite: python3 simulado.py
+        Arquivos com questões: arquivos com extensão *.dat, exemplo: gta5.dat
+        Arquivos de ranking: arquivos com extensão *.rkg (são texto comum)
+
+As questões são do tipo verdadeiro ou falso e obedecem a seguinte estrutura:
+       A capital de Manaus é o Amazonas; F 
 
 Observe que buscou-se o equilíbrio de questões V e F. Diante disso, em cada item 
 podemos construir 2 sentenças (uma verdadeira e uma falsa). Neste caso temos 2 linhas.
-
-        "A capital do Amazonas é Manaus", V 
-        "A capital de Manaus é o Amazonas", F 
+        A capital do Amazonas é Manaus; V 
+        A capital de Manaus é o Amazonas; F 
 
 A partir daí cria-se uma banco com milhares de questões. O programa carrega estas
 questões, faz uma escolha aleatória delas e então começa o simulado para que o aluno 
@@ -59,12 +65,17 @@ Cada resposta errada perde 1 ponto.
 Ao final o programa mostra um resumo do resultado obtido. A pontuação, as questões
 que o usuário errou e aquelas que ele pulou.
 
+RANKING DE PONTOS E XP DE USUÁRIOS
+==================================================================================
+Para cada arquivo de questões o sistema cria um arquivo diferente de ranking. Desta
+forma o simulado sobre um assunto específico terá seu próprio ranking.
+
+
 GITHUB
 ==================================================================================
 Este projeto poderá ser baixado a partir do github via git clone. Recomandamos O
 uso do linux Ubuntu 22.04 LTS ou superior. Link para o repositório no github:
 
-Observação: o projeto ainda está privado (não é público).
 https://github.com/marcelofournier/simulacetam 
 
 
@@ -75,5 +86,29 @@ centenas de questões. Entretanto, aconselho aos alunos que criem suas próprias
 questões a partir de livros didáticos e apostilas sobre temas em estudo no CETAM.
 Basta inserir as questões no arquivo quiz.dat. Trata-se de um arquivo texto comum 
 que pode ser aberto com o nano, gedit no linux ou o notepad no Windows.
+
+Você pode criar vários arquivos de bancos de questões diferentes. Exemplo:
+
+        Arquivo de questões                     Arquivo de ranking de pontos
+-----------------------------------------------------------------------------------        
+        redes-de-computadores.dat               redes-de-computadores.dat.rkg
+        arquitetura-de-computadores.dat         arquitetura-de-computadores.dat.rkg
+        sistemas-operacionais.dat               sistemas-operacionais.dat.rkg
+        gta5.dat                                gta5.dat.rkg
+        minecraft.dat                           minecraft.dat.rkg
+        skyrim.dat                              skyrim.dat.rkg
+        geografia-sexta-serie.dat               geografia-sexta-serie.dat.rkg       
+        ciencias-setima-serie.dat               ciencias-setima-serie.dat.rkg
+        física-segundo-ano.dat                  física-segundo-ano.dat.rkg                  
+
+Obs.: não existe arquivo de ranking de XP de usuários. O sistema cálcula por soma
+de pontos dos arquivos de ranking.
+
+EXEMPLO DE ARQUIVO COM QUESTÕES QUE VOCẼ PODE CRIAR: (Arquivo: gta5.dat)
+-----------------------------------------------------------------------------------        
+Em GTA 5, os jogadores podem controlar três personagens principais simultaneamente: Michael, Trevor e Franklin; F
+GTA 5 foi lançado pela primeira vez em 2013 para consoles de última geração; F
+No modo de jogo online de GTA 5, os jogadores podem formar gangues e realizar assaltos a bancos; V
+Em GTA 5, os jogadores podem comprar propriedades e negócios para aumentar sua renda passiva; V
 
 Marcelo Fournier - prof. Orientador

@@ -5,7 +5,7 @@ def limpar_tela():
     os.system('clear')
 
 def linha():
-    print('-----------------------------------------------------------------------------------------')
+    print('-' * 80)
 
 def print_limitado(texto, limite):
     partes = [texto[i:i+limite] for i in range(0, len(texto), limite)]
@@ -30,7 +30,9 @@ def mostra_host_ip():
     # Obtém o endereço IP do sistema
     endereco_ip = socket.gethostbyname(hostname)
     numero = contar_linhas_arquivo("quiz.dat")
-    print("  HOSTNAME:", hostname + ' | ' + "IP: ", endereco_ip + ' | Banco: ' + str(numero) + ' questões')
+    print("  HOSTNAME:", hostname + ' | ' + "IP: ", endereco_ip + " | ")
+    #' | Banco: ' + str(numero) + ' questões'
+
 
 def aguarde():
     input('  Pressione ENTER para prosseguir...')
@@ -87,7 +89,8 @@ def totalizar_pontos(nome_arquivo):
 
 def hello():
     print('')
-    os.system('figlet ....SIMULA CETAM')   
+    #os.system('figlet ....SIMULA CETAM')
+    os.system("cat head")  
     #print('')
     print('                    CENTRO DE EDUCAÇÃO TECNOLÓGICA DO AMAZONAS')
     print('')
@@ -190,23 +193,52 @@ def mostrar_ranking(nome_arquivo):
     linha()
 
 
-def mostrar_xps():
-    nome_arquivo = 'ranking.dat'  # Nome do arquivo texto
-    resultados = totalizar_pontos(nome_arquivo)
+def mostrar_xps(arquivo):
+    resultados = totalizar_pontos(arquivo)
     limpar_tela()
     hello()
     linha()
-    print('  XP POR USUÁRIO')
+    print('  XP POR USUÁRIO  | ARQUIVO: ' + arquivo )
     linha()
     for nome, pontos in resultados.items():
         print('  ' + f'{nome}: {pontos} pontos')
 
-    linha()
 
+    print("")
+    
+
+def listar_arquivos_dat(extensao):
+    # Lista de arquivos com extensão .dat
+    arquivos_dat = [arquivo for arquivo in os.listdir() if arquivo.endswith(extensao)]
+    #arquivos_dat.remove("ranking.dat")
+    
+    # Imprime os arquivos numerados
+    for i, arquivo in enumerate(arquivos_dat, 1):
+        print("  " + f"{i}. {' ==> ' + arquivo}")
+
+    # Verifica se há arquivos .dat no diretório
+    if not arquivos_dat:
+        print("  Não há arquivos com a extensão " + extensao + " neste diretório.")
+        return None
+
+    # Menu de seleção
+    while True:
+        try:
+            print("")
+            linha()
+            opcao = int(input("  Digite o número do arquivo que deseja selecionar: "))
+            if opcao == 0:
+                return None
+            elif 0 < opcao <= len(arquivos_dat):
+                return arquivos_dat[opcao - 1]
+            else:
+                print("  Opção inválida. Digite um número válido.")
+        except ValueError:
+            print("  Opção inválida. Digite um número.")
 
 
 # Função para iniciar o quiz
-def iniciar_quiz(questoes):
+def iniciar_quiz(questoes, arquivo_questoes, arquivo_ranking):
     limpar_tela()
     pontuacao = 0
     questao_numero = 0
@@ -217,6 +249,10 @@ def iniciar_quiz(questoes):
         hello()
         linha()
         print('')
+        #numero = questao_numero(arquivo_questoes)
+        numero = contar_linhas_arquivo(arquivo_questoes)
+        print('  Banco: ' + str(numero) + ' questões')
+        print("")
         print('  ATENÇÃO: ')
         print('    Cada resposta CERTA  você GANHA 1 ponto')
         print('    Cada resposta ERRADA você PERDE 1 ponto')
@@ -233,14 +269,17 @@ def iniciar_quiz(questoes):
         #print('  RESPOSTA: ')
 
         resposta_usuario = input("  =======>: ").upper()        
-        print('')            
+        print('')
+
         if resposta_usuario == resposta:
                 print("  Resposta correta!")
                 pontuacao += 1
+
         elif resposta_usuario == "P":
                 print("  Você pulou esta questão.")
                 questoes_puladas.append(questao)
                 aguarde()
+
         elif resposta_usuario == "S":
                 print("  Você selecionou S para sair.")
                 aguarde()
@@ -294,7 +333,8 @@ def iniciar_quiz(questoes):
     if resposta.lower() == 's':
         nickname = input("  Por favor, informe seu nickname: ")
         #pontuacao = int(input("  Agora, informe sua pontuação: "))
-        registrar_pontuacao(nickname, pontuacao, "ranking.dat")
+        registrar_pontuacao(nickname, pontuacao, arquivo_ranking)
+        mostrar_ranking(arquivo_ranking)
         print("  Pontuação registrada com sucesso!")
     else:
         print("  Pontuação não registrada.")
@@ -302,7 +342,6 @@ def iniciar_quiz(questoes):
 
 # Função principal
 def main():
-    nome_arquivo = "quiz.dat"  # Nome padrão do arquivo de questões
     while True:
         limpar_tela()
         linha()
@@ -325,22 +364,53 @@ def main():
             input("  Pressione Enter para continuar...")
         elif opcao == "2":
             limpar_tela()
-            questoes = selecionar_questoes("quiz.dat", 30)
-            iniciar_quiz(questoes)
+            hello()
+            print("")
+            linha()
+            print("")
+            print("  O SISTEMA PERMITE QUE VOCÊ TENHA VÁRIOS ARQUIVOS DE QUESTÕES")
+            print("  CADA ARQUIVO DE QUESTÕES TEM SEU PRÓPRIO RANKING DE PONTOS")
+            print("")
+            print("  SELECIONE ABAIXO O ARQUIVO DE QUESTÕES DESEJADO")
+            print("")
+            arquivo_questoes = listar_arquivos_dat(".dat")
+            #print("  Arquivo de questões: " + arquivo_questoes)
+            arquivo_ranking = "ranking_" + arquivo_questoes + ".rkg"
+            questoes = selecionar_questoes(arquivo_questoes, 30)
+            #print("  Arquivo de ranking: " + arquivo_ranking)          
+            iniciar_quiz(questoes, arquivo_questoes, arquivo_ranking)
+            print("")
+            linha()
             input("  Pressione Enter para continuar...")
+        
         elif opcao == "3":
             chama_chat()
             input("  Pressione Enter para continuar...")
             os.system('irssi')
             aguarde()
+        
         elif opcao == "4":
             limpar_tela()
-            mostrar_ranking("ranking.dat")
+            hello()
+            linha()
+            print("")
+            print("  VISUALIZANDO O RANKING DE PONTOS")
+            print("")
+            arquivo_ranking = listar_arquivos_dat(".rkg")
+            mostrar_ranking(arquivo_ranking)
             input("  Pressione Enter para continuar...")
+
         elif opcao == "5":
             limpar_tela()
-            mostrar_xps()
+            hello()
+            linha()
+            print("")
+            print("VISUALIZANDO O RANKING DE PONTOS")
+            print("")
+            arquivo_ranking = listar_arquivos_dat(".rkg")
+            mostrar_xps(arquivo_ranking)
             input("  Pressione Enter para continuar...")
+        
         elif opcao == "6":
             limpar_tela()
             mostrar_time()

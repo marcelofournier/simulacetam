@@ -1,20 +1,31 @@
-import os, datetime, random, socket
+import os, sys, datetime, random, socket, platform
+
 
 # Função para limpar a tela do terminal
 def limpar_tela():
-    os.system('clear')
+    # Detectar automaticamente o sistema operacional
+    if os.name == 'posix':  # Para sistemas Unix (Linux, macOS)
+        os.system('clear')
+    elif os.name == 'nt':   # Para Windows
+        os.system('cls')
+    else:
+        print("Não foi possível detectar o sistema operacional.")
+
 
 def linha():
     print('-' * 80)
+
 
 def print_limitado(texto, limite):
     partes = [texto[i:i+limite] for i in range(0, len(texto), limite)]
     for parte in partes:
         print(parte)
 
+
 def print_centralizado(palavra):
     largura_terminal = os.get_terminal_size().columns
     print(palavra.center(largura_terminal))
+
 
 def data_hora():
     # Obtém a data e hora atual
@@ -23,6 +34,7 @@ def data_hora():
     data_completa = agora.strftime("%A, %d de %B de %Y - %H:%M:%S")
     # Imprime a data e hora completa
     print("  DATA E HORA: ", data_completa)
+
 
 def mostra_host_ip():
     # Obtém o hostname do sistema
@@ -37,9 +49,11 @@ def mostra_host_ip():
 def aguarde():
     input('  Pressione ENTER para prosseguir...')
 
+
 def contato():
     limpar_tela()
     mostrar_time()
+
 
 def como_funciona():
     limpar_tela()
@@ -47,11 +61,13 @@ def como_funciona():
     abrir_arquivo("comofunciona.txt")
     aguarde()
 
+
 def chama_chat():
     limpar_tela()
     hello()
     abrir_arquivo("chatola.txt")
     aguarde()
+
 
 def contar_linhas_arquivo(nome_arquivo):
     try:
@@ -62,35 +78,57 @@ def contar_linhas_arquivo(nome_arquivo):
         return "Arquivo não encontrado"
     except Exception as e:
         return f"Ocorreu um erro: {e}"
-    
+
+
 def totalizar_pontos(nome_arquivo):
     # Dicionário para armazenar os pontos de cada usuário
     pontos_por_usuario = {}
 
-    # Abrir o arquivo texto
-    with open(nome_arquivo, 'r') as arquivo:
-        # Ler cada linha do arquivo
-        for linha in arquivo:
-            # Dividir a linha em nome e pontos
-            nome, pontos_str = linha.strip().split(';')
-            pontos = int(pontos_str)
+    try:
+        # Abrir o arquivo texto
+        with open(nome_arquivo, 'r') as arquivo:
+            # Ler cada linha do arquivo
+            for linha in arquivo:
+                # Dividir a linha em nome e pontos
+                dados = linha.strip().split(';')
+                if len(dados) != 2:
+                    raise ValueError("Formato de linha inválido: esperado 'nome;pontos'")
+                nome, pontos_str = dados
+                try:
+                    pontos = int(pontos_str)
+                except ValueError:
+                    raise ValueError("Valor inválido para pontos: não é um número inteiro")
 
-            # Adicionar os pontos ao total do usuário
-            if nome in pontos_por_usuario:
-                pontos_por_usuario[nome] += pontos
-            else:
-                pontos_por_usuario[nome] = pontos
+                # Adicionar os pontos ao total do usuário
+                if nome in pontos_por_usuario:
+                    pontos_por_usuario[nome] += pontos
+                else:
+                    pontos_por_usuario[nome] = pontos
+    except FileNotFoundError:
+        print("O arquivo não foi encontrado.")
+    except PermissionError:
+        print("Você não tem permissão para abrir este arquivo.")
+    except IOError as e:
+        print(f"Erro ao abrir o arquivo: {e}")
+    except ValueError as e:
+        print(f"Erro ao processar o arquivo: {e}")
+    except Exception as e:
+        print(f"Ocorreu um erro inesperado: {e}")
 
-    # Ordenar o dicionário por valor (pontos) em ordem decrescente
-    pontos_por_usuario_ordenados = dict(sorted(pontos_por_usuario.items(), key=lambda item: item[1], reverse=True))
+    return pontos_por_usuario
 
-    # Retornar o dicionário com os totais de pontos ordenados
-    return pontos_por_usuario_ordenados
 
 def hello():
+    limpar_tela()
     print('')
     #os.system('figlet ....SIMULA CETAM')
-    os.system("cat head")  
+    cabecalho = "head"
+    sistema_operacional = platform.system()
+    if sistema_operacional == 'Windows':
+        os.system(f"type {cabecalho}")
+    else:
+        os.system(f"cat {cabecalho}")
+
     #print('')
     print('                    CENTRO DE EDUCAÇÃO TECNOLÓGICA DO AMAZONAS')
     print('')
@@ -100,7 +138,10 @@ def hello():
     linha()
     data_hora()
     mostra_host_ip()
+    linha()
+    print("")
     
+
 # Função para carregar as questões do arquivo
 def carregar_questoes(nome_arquivo):
     questoes = []
@@ -112,6 +153,7 @@ def carregar_questoes(nome_arquivo):
     except FileNotFoundError:
         print("Arquivo de questões não encontrado.")
     return questoes
+
 
 def selecionar_questoes(arquivo, quantidade):
     # Lista para armazenar as questões selecionadas
@@ -160,12 +202,15 @@ def abrir_arquivo(nome_arquivo):
         print(f"Ocorreu um erro ao abrir o arquivo '{nome_arquivo}':", e)
         return None
 
+
 def mostrar_time():
     abrir_arquivo("time.txt")
+
 
 def registrar_pontuacao(nickname, pontuacao, nome_arquivo):
     with open(nome_arquivo, 'a') as arquivo:
         arquivo.write(f"{nickname};{pontuacao}\n")
+
 
 def mostrar_ranking(nome_arquivo):
     # Abrir o arquivo e ler as pontuações
@@ -193,6 +238,7 @@ def mostrar_ranking(nome_arquivo):
     linha()
 
 
+
 def mostrar_xps(arquivo):
     resultados = totalizar_pontos(arquivo)
     limpar_tela()
@@ -206,6 +252,7 @@ def mostrar_xps(arquivo):
 
     print("")
     
+
 
 def listar_arquivos_dat(extensao):
     # Lista de arquivos com extensão .dat
@@ -235,6 +282,75 @@ def listar_arquivos_dat(extensao):
                 print("  Opção inválida. Digite um número válido.")
         except ValueError:
             print("  Opção inválida. Digite um número.")
+
+
+
+def arquivos_rkg_ok():
+    try:
+        # Obtém a lista de arquivos no diretório local
+        arquivos = os.listdir()
+
+        # Percorre cada arquivo no diretório
+        for arquivo in arquivos:
+            if arquivo.endswith('.dat'):
+                # Verifica se o arquivo .rkg correspondente existe
+                arquivo_rkg = arquivo + '.rkg'
+                if arquivo_rkg not in arquivos:
+                    # Se não existir, cria o arquivo .rkg vazio
+                    with open(arquivo_rkg, 'w') as f:
+                        pass
+                    print(f"Criado arquivo {arquivo_rkg}")
+
+        # Se o loop terminar sem lançar exceções, retorna True
+        return True
+    except Exception as e:
+        print(f"Erro: {e}")
+        return False
+
+
+"""
+Verifica se cada arquivo de questões (*.dat) está no formato correto.
+Cada linha do arquivo deve conter afirmações seguida da resposta correta.
+Exemplo:
+
+    Manaus é a capital do Amazonas; V
+    Santarém é a capital do Pará; F
+
+"""
+def arquivo_questoes_ok():
+    try:
+        # Obtém a lista de arquivos no diretório corrente
+        arquivos = os.listdir()
+
+        # Percorre cada arquivo no diretório
+        for arquivo in arquivos:
+            if arquivo.endswith('.dat'):
+                with open(arquivo, 'r') as f:
+                    linhas = f.readlines()
+                    for num_linha, linha in enumerate(linhas, start=1):
+                        partes = linha.strip().split('; ')
+                        if len(partes) != 2 or partes[1].upper() not in {'V', 'F'}:                            
+                            print("")
+                            print(f"Erro no arquivo {arquivo}, linha {num_linha}: {linha.strip()}")
+                            print("")
+                            #aguarde()
+                            return False  # Retorna False ao encontrar um erro
+
+    except FileNotFoundError as e:
+        print(f"Ocorreu um erro: {e}")
+        return False  # Retorna False se ocorrer um FileNotFoundError
+
+    # Se a função não retornou False até agora, significa que tudo ocorreu sem erros
+    return True
+
+
+#dá no pé, saca fora.
+def inteh():
+    print("#" * 80)
+    print("Saindo do programa...")
+    print("Contato: fournier.marcelo@gmail.com")
+    print("#" * 80)
+    sys.exit();
 
 
 # Função para iniciar o quiz
@@ -340,8 +456,8 @@ def iniciar_quiz(questoes, arquivo_questoes, arquivo_ranking):
         print("  Pontuação não registrada.")
     
 
-# Função principal
-def main():
+
+def gera_simulado():    
     while True:
         limpar_tela()
         linha()
@@ -375,7 +491,8 @@ def main():
             print("")
             arquivo_questoes = listar_arquivos_dat(".dat")
             #print("  Arquivo de questões: " + arquivo_questoes)
-            arquivo_ranking = "ranking_" + arquivo_questoes + ".rkg"
+            #arquivo_ranking = "ranking_" + arquivo_questoes + ".rkg"
+            arquivo_ranking = arquivo_questoes + ".rkg"
             questoes = selecionar_questoes(arquivo_questoes, 30)
             #print("  Arquivo de ranking: " + arquivo_ranking)          
             iniciar_quiz(questoes, arquivo_questoes, arquivo_ranking)
@@ -394,7 +511,10 @@ def main():
             hello()
             linha()
             print("")
-            print("  VISUALIZANDO O RANKING DE PONTOS")
+            print("  RANKING DE PONTOS")
+            print("  OBS.: CADA ARQUIVO DE QUESTÕES GERA SEU PRÓPRIO RANKING")
+            print("")
+            print("  SELECIONE ABAIXO O RANKING DESEJADO")
             print("")
             arquivo_ranking = listar_arquivos_dat(".rkg")
             mostrar_ranking(arquivo_ranking)
@@ -424,6 +544,43 @@ def main():
             break
         else:
             print("  Opção inválida. Tente novamente.")
+
+
+
+# Função principal
+def main():
+    hello()
+    print("  REALIZANDO TESTES INICIAIS....")
+    print("")
+    teste1 = arquivo_questoes_ok()
+    teste2 = arquivos_rkg_ok()
+    print("  RESULTADO DOS TESTES")
+    linha()
+    if teste1: resultado1 = "APROVADO"
+    else: 
+        resultado1 = "REPROVADO"
+
+
+    if teste2: resultado2 = "APROVADO"
+    else: 
+        resultado2 = "REPROVADO"
+  
+ 
+    if resultado1 == "APROVADO" and resultado2 == "APROVADO":
+        gera_simulado()
+    else:
+        print("     Arquivo(s) de questões (*.dat).........: " + resultado1)
+        print("     Arquivo(s) de ranking  (*.rkg).........: " + resultado2)
+        print("")
+        print("ATENÇÃO! SEU ARQUIVO DE QUESTÕES NÃO ESTÁ NO FORMATO CORRETO.")
+        print("Todas as questões devem ser no seguinte formato. Exemplo:")
+        print("")
+        print("     Manaus é a capital do Amazonas; V")
+        print("     Olinda é a capital do Pernambuco; F")
+        print("")
+        inteh()
+
+
 
 if __name__ == "__main__":
     main()

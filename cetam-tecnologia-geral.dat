@@ -341,7 +341,6 @@ A função da maquina virtual é dar ao usuário a experiência de ter um outro 
 Num mesmo computador não podemos ter mais de uma máquina virtual rodando ao mesmo tempo, pois isso implicaria em crash do sistema Windows; F 
 No sistema linux não é possível rodar o VirtualBox; f 
 No sistema operacional linux não é possível se jogar jogos na plataforma STEAM de forma nativa; F 
-A função da tecla de atalho Ctrl + X é apagar os códigos do terminal
 No terminal linux as teclas CONTROL + SHIFT + V colam um texto ou comando copiado anteriormente; V 
 No terminal linux as teclas CONTROL + SHIFT + C copiam um texto para colagem posterior; V
 No terminal linux, o comando nano executa um arquivo de programas; F 
@@ -1049,7 +1048,6 @@ O termo "spam" em inglês é usado para descrever mensagens eletrônicas não so
 "Auditoria de segurança" é uma atividade realizada regularmente no projeto de redes de computadores para avaliar e verificar a eficácia das medidas de segurança existentes e identificar possíveis vulnerabilidades; V
 "Monitoramento de rede" é uma prática contínua no projeto de redes de computadores, envolvendo a supervisão e análise do tráfego de rede para identificar problemas de desempenho, segurança e disponibilidade; V
 "Backup e recuperação" é uma consideração crítica no projeto de redes de computadores, envolvendo a implementação de políticas e procedimentos para proteger e restaurar dados em caso de perda ou corrupção; V
-"Documentação de procedimentos operacionais" é a criação de instruções detalhadas e orientações para ajudar na operação, manutenção e resolução de problemas na rede, garantindo uma administração eficiente e consistente. V
 Uma LAN (Local Area Network) é uma rede de computadores que abrange uma área geográfica pequena, como um escritório ou uma casa; V
 Uma WAN (Wide Area Network) é uma rede de computadores que abrange uma área geográfica extensa, geralmente um país ou continente; V
 O protocolo TCP/IP é o conjunto de protocolos de comunicação padrão da Internet e é composto por quatro camadas: aplicação, transporte, internet e enlace; V
@@ -1174,7 +1172,6 @@ O funcionamento de uma porta lógica é determinado pela tabela verdade que desc
 "Monitoramento de virtualização" é o acompanhamento do desempenho e da utilização de recursos em ambientes virtualizados, como servidores virtuais e máquinas virtuais, para garantir uma alocação eficiente de recursos e evitar sobrecargas; V
 "Monitoramento de DNS" é o acompanhamento do funcionamento do serviço de Sistema de Nomes de Domínio (DNS) para garantir resoluções rápidas e precisas de nomes de domínio em endereços IP; V
 "Monitoramento de VoIP" é o acompanhamento do tráfego e do desempenho de serviços de Voz sobre IP (VoIP) para garantir qualidade de chamada e disponibilidade do serviço de telefonia pela Internet; V
-"Monitoramento de segurança" é o acompanhamento contínuo de eventos e atividades de segurança na rede, incluindo tentativas de acesso não autorizado, malware e anomalias de tráfego, para proteger contra ameaças cibernéticas e violações de segurança. V
 O algoritmo de ordenação 'Bubble Sort' possui complexidade de tempo O(n²) no pior caso."; V
 "A álgebra booleana é amplamente utilizada em computação para representar e manipular valores lógicos, com operadores como AND, OR e NOT."; V
 "A função exponencial y = e^x, onde e é a constante de Euler, é comumente usada em algoritmos de otimização e modelagem matemática."; V
